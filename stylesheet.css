@@ -38,7 +38,7 @@ body {
 }
 
 /* ################################################ */
-/* contents-item1~4のボックスを配置する */
+/* contents-item1~4のボックスを配置する ref: http://www.css-designsample.com/beginner/hp/float-base.html */
 /* Top picture */
 .contents-item1 { width:250px;height:150px;float:left; }
 /* 今週の一枚 */
