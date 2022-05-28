@@ -1,0 +1,31 @@
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+  /* floatプロパティをleftにしてください */
+  float: left;
+  
+}
+
+.header {
+  background-color: #191970;
+  height: 90px;
+}
+
+/* header-logoの文字の大きさを36px、floatプロパティをleftにしてください */
+.header-logo{
+  font-size: 36px;
+  float: left
+}
+
+.main {
+  background-color: #ffffe0;
+  height: 600px;
+}
+
+.footer {
+  background-color: #191970;
+  height: 270px;
+}
