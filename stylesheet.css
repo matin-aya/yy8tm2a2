@@ -32,10 +32,11 @@ li {
 .main {
   background-color: #ffffe0;
   height: 600px;
+  margin: 0px;
 }
 
 .content {
-  margin: 10px 0 10px 0;
+  /* margin: 10px 0 10px 0; */
   display: flex;
 }
   
