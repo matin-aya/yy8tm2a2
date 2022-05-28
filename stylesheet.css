@@ -22,6 +22,7 @@ li {
   font-size: 36px;
 /* 上下のpaddingを20px、左右のpaddingを40pxにしてください */
   padding: 20px 40px;
+  margin-top: 0;
 }
 
 .main {
