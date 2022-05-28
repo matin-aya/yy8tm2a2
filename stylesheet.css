@@ -17,7 +17,7 @@ li {
 /* header-logoの文字の大きさを36px、floatプロパティをleftにしてください */
 .header-logo{
   font-size: 36px;
-  float: left
+  float: left;
 }
 
 .main {
