@@ -38,10 +38,15 @@ body {
 }
 
 /* ################################################ */
-/* contents-itemのボックスを2x2に配置する */
- .contents-item {
-  float: left;
-}
+/* contents-item1~4のボックスを配置する */
+/* Top picture */
+.contents-item1 { width:250px;height:150px;float:left; }
+/* 今週の一枚 */
+.contents-item2 { width:200px;height:100px;float:left; }
+/* Dialy */
+.contents-item3 { clear:both;width:250px;height:150px; }
+/* 今週の注目レース */
+.contents-item4 { width:200px;height:100px;float:left; }
 
 /* ################################################ */
 .footer {
