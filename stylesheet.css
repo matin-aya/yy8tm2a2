@@ -6,8 +6,8 @@ body {
 li {
   list-style: none;
   float: right;  
-  /* 上下のpaddingを33px、左右のpaddingを20pxにしてください */
-  padding: 40px 20px;
+  /* 上・右・下・左のpaddingを40px、20px、20px、20pxにしてください */
+  padding: 40px 20px 20px 20px;
 }
 
 .header {
