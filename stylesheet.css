@@ -34,6 +34,8 @@ li {
   height: 600px;
 }
 
+.main { width:250px;height:150px;float:left; }
+
 .footer {
   background-color: #191970;
   height: 70px;
