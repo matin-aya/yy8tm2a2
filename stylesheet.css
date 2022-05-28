@@ -11,14 +11,13 @@ li {
 
 .header {
   background-color: #191970;
-  height: 120px;
+  height: 90px;
 }
 
 /* header-logoの文字の大きさを36px、floatプロパティをleftにしてください */
-.header-logo{
-  font-size: 36px;
+.header-logo {
   float: left;
-  color: #ffffff;
+  font-size: 36px;
 }
 
 .main {
@@ -28,5 +27,5 @@ li {
 
 .footer {
   background-color: #191970;
-  height: 90px;
+  height: 120px;
 }
