@@ -38,6 +38,12 @@ body {
 }
 
 /* ################################################ */
+/* contents-itemのボックスを2x2に配置する */
+ .contents-item {
+  float: left;
+}
+
+/* ################################################ */
 .footer {
   /* footer領域色(midnightblue) */
   background-color: #191970;
