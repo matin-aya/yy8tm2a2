@@ -1,13 +1,44 @@
+body {
+  font-family: "Avenir Next";
+}
+
+/* ################################################ */
 li {
    /* htmlで書いたリスト先頭の黒点を消す */
    list-style: none;
   /* htmlで書いたリストを右側に横並びに配置する */
    float: right;
-   
+　/* 上下のpaddingを33px、左右のpaddingを20px */
+  padding: 33px 20px;   
 }
 
+/* ################################################ */
+.header {
+  /* header領域色(midnightblue) */
+  background-color: #191970;
+  color: #fff;
+  height: 90px;
+}
 
+/* ################################################ */
+/* headerの"Life Is but a Dream"の文字列の位置やサイズを調整 */
+.header-logo {
+ float: left;
+  font-size: 36px;
+  /* 上下のpaddingを20px、左右のpaddingを40px */
+    padding: 20px 40px;
+}
 
-.logo1{
-  Life Is but a Dream
+/* ################################################ */
+.main {
+  /* main領域色(lightyellow) */
+  background-color: #ffffe0;
+  height: 600px;
+}
+
+/* ################################################ */
+.footer {
+  /* footer領域色(midnightblue) */
+  background-color: #191970;
+  height: 60px;
 }
