@@ -1,0 +1,55 @@
+body {
+  font-family: "Avenir Next";
+}
+
+/* ################################################ */
+/* liの前に.header-listとつけることで、headerのみに調整が適用される(footerには作用しない) */
+.header-list li {
+   /* htmlで書いたリスト先頭の黒点を消す */
+   list-style: none;
+  /* htmlで書いたリストを右側に横並びに配置する */
+   float: right;
+　/* 上下のpaddingを33px、左右のpaddingを20px */
+  padding: 20px 30px;   
+}
+
+/* ################################################ */
+.header {
+  /* header領域色(midnightblue) */
+  background-color: #191970;
+  height: 90px;
+}
+
+/* ################################################ */
+/* headerの"Life Is but a Dream"の文字列の位置やサイズを調整 */
+.header-logo {
+ float: left;
+  font-size: 36px;
+  /* 上下のpaddingを20px、左右のpaddingを40px */
+    padding: 20px 40px;
+}
+
+/* ################################################ */
+.main {
+  /* main領域色(lightyellow) */
+  background-color: #ffffe0;
+  height: 600px;
+}
+
+/* ################################################ */
+/* contents-item1~4のボックスを配置する ref: http://www.css-designsample.com/beginner/hp/float-base.html */
+/* Top picture */
+.contents-item1 { width:250px;height:150px;float:left; }
+/* 今週の一枚 */
+.contents-item2 { width:200px;height:150px;float:left; }
+/* Dialy */
+.contents-item3 { clear:both;width:250px;height:100px; }
+/* 今週の注目レース */
+.contents-item4 { width:200px;height:100px;float:left; }
+
+/* ################################################ */
+.footer {
+  /* footer領域色(midnightblue) */
+  background-color: #191970;
+  height: 60px;
+}
