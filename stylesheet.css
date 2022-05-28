@@ -1,3 +1,10 @@
+li {
+   <!-- htmlで書いたリスト先頭の黒点を消す -->
+   list-style: none;
+}
+
+
+
 .logo1{
   
 }
