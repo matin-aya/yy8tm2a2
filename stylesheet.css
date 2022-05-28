@@ -32,9 +32,19 @@ li {
 .main {
   background-color: #ffffe0;
   height: 600px;
+  
+  margin: 10px 0 10px 0;
+  display: flex;
 }
 
-.contents-item1 { width:250px;height:150px;float:left; }
+image{
+    width: 25%;
+    height: 200px;
+    background-color: #eee;
+    text-align: center;
+    margin: 10px;
+}
+
 
 .footer {
   background-color: #191970;
