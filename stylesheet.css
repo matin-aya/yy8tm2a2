@@ -7,13 +7,14 @@ li {
   list-style: none;
   float: right;  
   /* 上・右・下・左のpaddingを40px、20px、20px、20pxにしてください */
-  padding: 40px 20px 20px 20px;
+  padding: 40px 40px 20px 20px;
 }
 
 .header {
   background-color: #191970;
   color: #fff;
   height: 90px;
+  margin-top: 0;
 }
 
 /* header-logoの文字の大きさを36px、floatプロパティをleftにしてください */
@@ -22,6 +23,7 @@ li {
   font-size: 36px;
 /* 上下のpaddingを20px、左右のpaddingを40pxにしてください */
   padding: 20px 40px;
+  /*  */
   margin-top: 0;
 }
 
@@ -33,4 +35,5 @@ li {
 .footer {
   background-color: #191970;
   height: 70px;
+  margin-top: 0;
 }
