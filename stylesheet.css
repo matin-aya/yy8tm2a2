@@ -8,7 +8,7 @@ body {
    /* htmlで書いたリスト先頭の黒点を消す */
    list-style: none;
   /* htmlで書いたリストを右側に横並びに配置する */
-   float: left;
+   float: right;
 　/* 上下のpaddingを33px、左右のpaddingを20px */
   padding: 20px 30px;   
 }
