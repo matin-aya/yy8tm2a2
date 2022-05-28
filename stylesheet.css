@@ -10,7 +10,7 @@ body {
   /* htmlで書いたリストを右側に横並びに配置する */
    float: left;
 　/* 上下のpaddingを33px、左右のpaddingを20px */
-  padding: 33px 20px;   
+  padding: 20px 30px;   
 }
 
 /* ################################################ */
