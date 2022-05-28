@@ -21,10 +21,6 @@ li {
   height: 90px;
 }
 
-/* #title { */
-/* margin-top: 0; */
-/* }
-
 /* header-logoの文字の大きさを36px, floatプロパティをleftにしてください */
 .header-logo {
   float: left;
