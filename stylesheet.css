@@ -13,8 +13,6 @@ li {
   float: right;  
   /* 上, 右, 下, 左のpaddingを40px, 20px, 20px, 20pxにしてください */
   padding: 35px 40px 20px 20px;
-      min-height:100%;
-    min-wigth:100%;
 }
 
 .header {
@@ -39,7 +37,7 @@ li {
     /* width: 100%; */
     display: flex;              /* フレックスボックスにする */
     flex-wrap: wrap;            /* 折り返し指定 */
-    align-content: center;      /* 折り返し時の配置指定 x stretch */
+    align-content: stretch;      /* 折り返し時の配置指定 x stretch */
 }
  
 .image {
@@ -49,9 +47,6 @@ li {
     border-radius:  5px;        /* 角丸指定 */
     font-size:  20px;           /* 文字サイズ */
     text-align:  center;        /* 文字中央揃え */
-    max-wigth:100%;
-    min-wigth:100%;
-    height: auto;        /* 縦横比を保つ */
 }
  
 /* nth-child()内の数字はimageに指定したリスト?の"n番目の要素"を意味する */
