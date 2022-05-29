@@ -54,11 +54,11 @@ li {
 }
  
 .image:nth-child(Top picture) {
-    background-color:  #eee; /* 背景色指定 */
+    background-color: #eee; /* 背景色指定 */
 }
  
 .image:nth-child(今週の一枚) {
-    background-color:  #eee; /* 背景色指定 */
+    background-color: #eee; /* 背景色指定 */
 }
  
 .image:nth-child(Diary) {
@@ -66,7 +66,7 @@ li {
 }
  
 .image:nth-child(今週の注目レース) {
-    background-color:  #eee; /* 背景色指定 */
+    background-color: #eee; /* 背景色指定 */
 }
 /* ################################### */
 
