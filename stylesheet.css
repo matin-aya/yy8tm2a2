@@ -48,6 +48,19 @@ li {
  width: 450px;
  height: 300px;
 }
+
+.image_3 {
+ background: #eee;
+ width: 550px;
+ height: 100px;
+}
+
+.image_4 {
+ background: #eee;
+ display: inline-block;
+ width: 450px;
+ height: 100px;
+}
 /* ################################### */
 
 .footer {
