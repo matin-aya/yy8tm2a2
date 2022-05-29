@@ -42,7 +42,6 @@ li {
 
 .content:before {
   content: "";
-  display: block;
   padding: 10%;
 }
 
