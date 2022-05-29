@@ -34,11 +34,10 @@ li {
     background-color: #ffffe0;     /* 背景色指定 */
     padding:  10px;             /* 余白指定 */
     height: 600px;              /* 高さ指定 x 600px */
-    /* width: 100%; */
+    width: 100%;
     display: flex;              /* フレックスボックスにする */
     flex-wrap: wrap;            /* 折り返し指定 */
     align-content: stretch;      /* 折り返し時の配置指定 x stretch */
-  max-wigth:100%;
 }
  
 .image {
