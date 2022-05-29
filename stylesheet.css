@@ -36,9 +36,8 @@ li {
 
 /* ################################### */
 .content{
-    display: flex;
-    flex-wrap: wrap;
-}
+ display:table
+ }
 .image{
     width: 25%;
     height: 200px;
