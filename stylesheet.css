@@ -40,8 +40,8 @@ li {
     height: auto;        /* 縦横比を保つ */
   
   display: grid;
-  grid-template-columns: 550px 400px;
-  grid-template-rows: 300px 200px;
+  grid-template-columns: 500px;
+  grid-template-rows: 400px;
   grid-gap 10px;
 }
  
