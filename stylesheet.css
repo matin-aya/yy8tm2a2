@@ -35,16 +35,11 @@ li {
 }
 
 /* ################################### */
-.content{
- display:table
- }
-.image{
-    width: 25%;
-    height: 200px;
-    background-color: #eee;
-    text-align: center;
-    margin: 10px;
+.image_1 {
+    position: relative;
+    width: 300px;
 }
+
 /* ################################### */
 
 .footer {
