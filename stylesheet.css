@@ -35,9 +35,9 @@ li {
     padding:  0%;             /* 余白指定 10px */
     height: 100%;              /* 高さ指定 x 600px 100%にしないと画面縮めた時にimageの要素がheader側にはみ出る */
     width: 100%;
-   /* display: flex;               フレックスボックスにする flex table*/
-  /*  flex-wrap: wrap;             折り返し指定 nowwrap*/
-  /*  align-content: stretch;       折り返し時の配置指定 x stretch */
+    max-wigth:100%;
+    min-wigth:100%;
+    height: auto;        /* 縦横比を保つ */
   
   display: grid;
   grid-template-columns: 550px 450px;
