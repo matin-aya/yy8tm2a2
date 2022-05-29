@@ -64,8 +64,8 @@ li {
   background-color: #eee;
   height: 200px;
   width: 400px;
+  top: 260px;
   left: 0;
-  top: 260;
   bottom: 0;
 }
 
@@ -74,6 +74,7 @@ li {
   background-color: #eee;
   height: 200px;
   width: 350px;
+  top: 260px;
   right: 0;
   bottom: 0;
 }
