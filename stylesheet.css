@@ -33,7 +33,7 @@ li {
 .main {
     background-color: #ffffe0;     /* 背景色指定 */
     padding:  10px;             /* 余白指定 */
-    height: 600px;              /* 高さ指定 x 600px */
+    height: 100%;              /* 高さ指定 x 600px */
     width: 100%;
     display: flex;              /* フレックスボックスにする */
     flex-wrap: wrap;            /* 折り返し指定 */
