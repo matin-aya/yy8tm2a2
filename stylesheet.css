@@ -52,6 +52,17 @@ li {
   flex-grow: 1;
 }
 
+.content_b {
+  display: flex; 
+}
+
+.flex-item_b {
+  background-color: #eee;
+  margin: 10px; 
+  /* 50px */
+  padding: 80px 0;
+}
+
 .item3 {
   flex-grow: 2; 
 }
