@@ -40,23 +40,21 @@ li {
 }
 
 .image_1 {
-  /* position: absolute; */
-    position: fixed;
+  position: absolute;
   background-color: #eee;
+  top: 30px;
+  left: 30px;
   height: 300px;
   width: 550px;
-  left: 30px;
-  top: 30px;
 }
 
 .image_2 {
-  /* position: absolute; */
-    position: fixed;
+  position: absolute;
   background-color: #eee;
+  top: 30px;
+  right: 30px;
   height: 300px;
   width: 450px;
-  right: 30px;
-  top: 30px;
 }
 
 
