@@ -35,18 +35,16 @@ li {
 }
 
 /* ################################### */
-.wrap {
-  display: flex;
-  /* 親要素の横幅を超えた子要素は折り返し複数行に配置する */
-  flex-wrap: wrap;
+.content{
+    margin: 10px 0 10px 0;
+    display: flex;
 }
-
-.item {
-  padding: 30px;
-  width: 32%;
-  background-color: #fff;
-}
-
+.image{
+    width: 25%;
+    height: 200px;
+    background-color: #eee;
+    text-align: center;
+    margin: 10px;
 }
 /* ################################### */
 
