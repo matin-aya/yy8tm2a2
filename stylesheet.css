@@ -36,7 +36,8 @@ li {
 
 /* ################################### */
 .content {
-    position: relative;
+  /* position: relative; */
+  position: fixed;
 }
 
 .image_1 {
