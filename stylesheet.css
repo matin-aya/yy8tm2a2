@@ -32,13 +32,13 @@ li {
 /* .main { */
   /* background-color: #ffffe0; */
   /* height: 600px; */
-} */
+/* } */
 
 /* ################################### */
 .main {
     background-color: #ffffe0;
-    height: 600px;             /* 高さ指定 */
     padding: 10px;             /* 余白指定 */
+    height: 600px;             /* 高さ指定 */
     display: flex;              /* フレックスボックスにする */
     flex-wrap: wrap;            /* 折り返し指定 */
     align-content:stretch;      /* 折り返し時の配置指定 */
