@@ -41,7 +41,7 @@ li {
  
 .image {
     padding: 10px;
-    color:  #fff;               /* 文字色 */
+    color:  #000;               /* 文字色 */
     margin:  10px;              /* 外側の余白 */
     border-radius:  5px;        /* 角丸指定 */
     font-size:  20px;           /* 文字サイズ */
