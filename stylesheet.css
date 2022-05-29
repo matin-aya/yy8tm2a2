@@ -43,6 +43,7 @@ li {
 .content:before {
   content: "";
   padding: 10%;
+  gap: 30%;
 }
 
 .image_1 {
