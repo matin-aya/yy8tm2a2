@@ -39,29 +39,65 @@ li {
     align-content:stretch;      /* 折り返し時の配置指定 */
 }
  
-.image {
+.image_1 {
     padding: 10px;
     color:  #000;               /* 文字色 */
     margin:  10px;              /* 外側の余白 */
     border-radius:  5px;        /* 角丸指定 */
     font-size:  20px;           /* 文字サイズ */
-    width: 200px;               /* 幅指定 */
+    width: 550px;               /* 幅指定 */
+    height: 400px;               /* 幅指定 */
     text-align:  center;        /* 文字中央揃え */
 }
  
-.image:nth-child(1) {
+/* nth-child()内の数字はimageに指定したリスト?の"n番目の要素"を意味する */
+.image_1:nth-child(1) {
     background-color:  #2196F3; /* 背景色指定 */
+    /* flex-grow: 1;                幅指定 */
 }
  
-.image:nth-child(2) {
+.image_2 {
+    padding: 10px;
+    color:  #000;               /* 文字色 */
+    margin:  10px;              /* 外側の余白 */
+    border-radius:  5px;        /* 角丸指定 */
+    font-size:  20px;           /* 文字サイズ */
+    width: 350px;               /* 幅指定 */
+    height: 400px;               /* 幅指定 */
+    text-align:  center;        /* 文字中央揃え */
+}
+
+.image_2:nth-child(1) {
     background-color:  #4CAF50; /* 背景色指定 */
 }
  
-.image:nth-child(3) {
+.image_3 {
+    padding: 10px;
+    color:  #000;               /* 文字色 */
+    margin:  10px;              /* 外側の余白 */
+    border-radius:  5px;        /* 角丸指定 */
+    font-size:  20px;           /* 文字サイズ */
+    width: 550px;               /* 幅指定 */
+    height: 100px;               /* 幅指定 */
+    text-align:  center;        /* 文字中央揃え */
+}
+
+.image_3:nth-child(1) {
     background-color: #3F51B5; /* 背景色指定 */
 }
  
-.image:nth-child(4) {
+.image_4 {
+    padding: 10px;
+    color:  #000;               /* 文字色 */
+    margin:  10px;              /* 外側の余白 */
+    border-radius:  5px;        /* 角丸指定 */
+    font-size:  20px;           /* 文字サイズ */
+    width: 350px;               /* 幅指定 */
+    height: 100px;               /* 幅指定 */
+    text-align:  center;        /* 文字中央揃え */
+}
+
+.image_4:nth-child(1) {
     background-color:  #00BCD4; /* 背景色指定 */
 }
 /* ################################### */
