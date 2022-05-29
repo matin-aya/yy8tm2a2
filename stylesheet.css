@@ -36,48 +36,30 @@ li {
 
 /* ################################### */
 .content {
-    position: content;
-    width: 1000px;
+    position: relative;
 }
 
 .image_1 {
-    padding: 30px;
-    background-color: #eee;
-    position: image_1;
-    height: 300px;
-    width: 400px;
-    left: 30px;
-    bottom: 100px; 
+  right: 0;
+  top: 0;
 }
 
 .image_2 {
-    padding: 30px;
-    background-color: #eee;
-    position: image_2;
-    height: 300px;
-    width: 350px;
-    right: 30px;
-    bottom: 100px; 
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .image_3 {
-    padding: 30px;
-    background-color: #eee;
-    position: image_3;
-    height: 300px;
-    width: 400px;
-    left: 30px;
-    bottom: 100px; 
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .image_4 {
-    padding: 30px;
-    background-color: #eee;
-    position: image_4;
-    height: 300px;
-    width: 350px;
-    right: 30px;
-    bottom: 100px; 
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 /* ################################### */
 
