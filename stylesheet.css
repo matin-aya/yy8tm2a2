@@ -40,15 +40,23 @@ li {
 
 .flex-item {
   background-color: #eee;
-  margin: 10px;
-  padding: 50px 0;
+  margin: 10px; 
+  /* 50px */
+  padding: 80px 0;
 }
 
 .item1 {
-  flex-grow: 1; 
+  flex-grow: 2; 
 }
 .item2 {
-  flex-grow: 2;
+  flex-grow: 1;
+}
+
+.item3 {
+  flex-grow: 2; 
+}
+.item4 {
+  flex-grow: 1;
 }
 
 
