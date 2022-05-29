@@ -41,24 +41,36 @@ li {
 
 .image_1 {
   position: absolute;
+  background-color: #eee;
+  height: 300px;
+  width: 400px;
   right: 0;
   top: 0;
 }
 
 .image_2 {
   position: absolute;
+  background-color: #eee;
+  height: 300px;
+  width: 350px;
   left: 0;
   top: 0;
 }
 
 .image_3 {
   position: absolute;
+  background-color: #eee;
+  height: 300px;
+  width: 400px;
   left: 0;
   bottom: 0;
 }
 
 .image_4 {
   position: absolute;
+  background-color: #eee;
+  height: 300px;
+  width: 350px;
   right: 0;
   bottom: 0;
 }
