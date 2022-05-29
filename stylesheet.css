@@ -13,6 +13,8 @@ li {
   float: right;  
   /* 上, 右, 下, 左のpaddingを40px, 20px, 20px, 20pxにしてください */
   padding: 35px 40px 20px 20px;
+      min-height:100%;
+    min-wigth:100%;
 }
 
 .header {
@@ -47,8 +49,8 @@ li {
     border-radius:  5px;        /* 角丸指定 */
     font-size:  20px;           /* 文字サイズ */
     text-align:  center;        /* 文字中央揃え */
-    max-height:100%;
-    max-wigth:100%;
+    min-height:100%;
+    min-wigth:100%;
 }
  
 /* nth-child()内の数字はimageに指定したリスト?の"n番目の要素"を意味する */
