@@ -32,7 +32,7 @@ li {
 /* ################################### */
 .main {
     background-color: #ffffe0;     /* 背景色指定 */
-    padding:  0px;             /* 余白指定 10px */
+    padding:  0%;             /* 余白指定 10px */
     height: 100%;              /* 高さ指定 x 600px 100%にしないと画面縮めた時にimageの要素がheader側にはみ出る */
     width: 100%;
     display: flex;              /* フレックスボックスにする flex table*/
@@ -52,26 +52,26 @@ li {
 /* nth-child()内の数字はimageに指定したリスト?の"n番目の要素"を意味する */
 .image:nth-child(1) {
     background-color:  #2196F3; /* 背景色指定 */
-    width: 550px;               /* 幅指定 550px 55%*/
+    width: 800px;               /* 幅指定 550px 55%*/
     height: 400px;               /* 幅指定 400px 50%*/
 }
 
 .image:nth-child(2) {
     background-color:  #4CAF50; /* 背景色指定 */
-    width: 400px;               /* 幅指定 400px 40% */
-    height: 350px;               /* 幅指定 350px 35% */
+    width: 500px;               /* 幅指定 350px 35% */
+    height: 400px;               /* 幅指定 400px 40% */
 } 
 
 .image:nth-child(3) {
     background-color: #3F51B5; /* 背景色指定 */
-    width: 550px;               /* 幅指定 550px 55%*/
-    height: 200px;               /* 幅指定 100px 30%*/
+    width: 800px;               /* 幅指定 550px 55%*/
+    height: 300px;               /* 幅指定 100px 30%*/
 }
 
 .image:nth-child(4) {
     background-color:  #00BCD4; /* 背景色指定 */
-    width: 350px;               /* 幅指定 350px 35%*/
-    height: 200px;               /* 幅指定 100px 30%*/
+    width: 500px;               /* 幅指定 350px 35%*/
+    height: 300px;               /* 幅指定 100px 30%*/
 }
 /* ################################### */
 
