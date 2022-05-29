@@ -37,6 +37,13 @@ li {
 /* ################################### */
 .content {
   position: relative;
+  width: 100%;
+}
+
+.content:before {
+  content: "";
+  display: block;
+  padding: 10%;
 }
 
 .image_1 {
