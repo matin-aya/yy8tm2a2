@@ -36,9 +36,13 @@ li {
 
 /* ################################### */
 .image_1 {
+    padding: 30px;
+    background-color: #eee;
     position: content;
     height: 400px;
     width: 300px;
+    left: 30px;
+    bottom: 100px; 
 }
 
 .image_2 {
