@@ -36,12 +36,12 @@ li {
 
 /* ################################### */
 .content {
-  /* position: relative; */
-  position: fixed;
+  position: relative;
 }
 
 .image_1 {
-  position: absolute;
+  /* position: absolute; */
+    position: fixed;
   background-color: #eee;
   height: 300px;
   width: 550px;
@@ -50,7 +50,8 @@ li {
 }
 
 .image_2 {
-  position: absolute;
+  /* position: absolute; */
+    position: fixed;
   background-color: #eee;
   height: 300px;
   width: 450px;
