@@ -38,6 +38,7 @@ li {
 .content {
   position: relative;
   width: 100%;
+  gap: 20px 30px;
 }
 
 .content:before {
