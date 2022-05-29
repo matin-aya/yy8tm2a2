@@ -36,10 +36,16 @@ li {
 
 /* ################################### */
 .image_1 {
-    position: relative;
+    position: content;
+    height: 400px;
     width: 300px;
 }
 
+.image_2 {
+    position: content;
+    height: 400px;
+    width: 300px;
+}
 /* ################################### */
 
 .footer {
