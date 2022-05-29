@@ -42,8 +42,8 @@ li {
 .image_1 {
   position: absolute;
   background-color: #eee;
-  height: 300px;
-  width: 400px;
+  height: 400px;
+  width: 550px;
   left: 0;
   top: 0;
   padding: 30px;
@@ -52,32 +52,14 @@ li {
 .image_2 {
   position: absolute;
   background-color: #eee;
-  height: 300px;
-  width: 350px;
+  height: 400px;
+  width: 450px;
   right: 0;
   top: 0;
   padding: 30px;
 }
 
-.image_3 {
-  position: absolute;
-  background-color: #eee;
-  height: 200px;
-  width: 400px;
-  top: 260px;
-  left: 0;
-  bottom: 0;
-}
 
-.image_4 {
-  position: absolute;
-  background-color: #eee;
-  height: 200px;
-  width: 350px;
-  top: 260px;
-  right: 0;
-  bottom: 0;
-}
 /* ################################### */
 
 .footer {
