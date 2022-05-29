@@ -34,7 +34,7 @@ li {
     background-color: #ffffe0;     /* 背景色指定 */
     padding:  10px;             /* 余白指定 */
     height: 600px;              /* 高さ指定 x 600px */
-    width: 100%;
+    /* width: 100%; */
     display: flex;              /* フレックスボックスにする */
     flex-wrap: wrap;            /* 折り返し指定 */
     align-content: stretch;      /* 折り返し時の配置指定 x stretch */
@@ -52,25 +52,25 @@ li {
 /* nth-child()内の数字はimageに指定したリスト?の"n番目の要素"を意味する */
 .image:nth-child(1) {
     background-color:  #2196F3; /* 背景色指定 */
-      width: 550px;               /* 幅指定 */
+    width: 550px;               /* 幅指定 */
     height: 400px;               /* 幅指定 */
 }
 
 .image:nth-child(2) {
     background-color:  #4CAF50; /* 背景色指定 */
-        width: 350px;               /* 幅指定 */
+    width: 350px;               /* 幅指定 */
     height: 400px;               /* 幅指定 */
 } 
 
 .image:nth-child(3) {
     background-color: #3F51B5; /* 背景色指定 */
-      width: 550px;               /* 幅指定 */
+    width: 550px;               /* 幅指定 */
     height: 100px;               /* 幅指定 */
 }
 
 .image:nth-child(4) {
     background-color:  #00BCD4; /* 背景色指定 */
-      width: 350px;               /* 幅指定 */
+    width: 350px;               /* 幅指定 */
     height: 100px;               /* 幅指定 */
 }
 /* ################################### */
