@@ -39,7 +39,7 @@ li {
     /* width: 100%; */
     display: flex;              /* フレックスボックスにする */
     flex-wrap: wrap;            /* 折り返し指定 */
-    align-content: stretch;      /* 折り返し時の配置指定 x stretch */
+    align-content: center;      /* 折り返し時の配置指定 x stretch */
 }
  
 .image {
@@ -50,6 +50,7 @@ li {
     font-size:  20px;           /* 文字サイズ */
     text-align:  center;        /* 文字中央揃え */
     max-wigth:100%;
+    min-wigth:100%;
     height: auto;        /* 縦横比を保つ */
 }
  
