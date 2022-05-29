@@ -43,7 +43,7 @@ li {
 .image_1 {
     padding: 30px;
     background-color: #eee;
-    position: content;
+    position: image_1;
     height: 400px;
     width: 300px;
     left: 30px;
@@ -51,9 +51,13 @@ li {
 }
 
 .image_2 {
-    position: content;
+    padding: 30px;
+    background-color: #eee;
+    position: image_2;
     height: 400px;
     width: 300px;
+    right: 30px;
+    bottom: 100px; 
 }
 /* ################################### */
 
