@@ -59,6 +59,26 @@ li {
     right: 30px;
     bottom: 100px; 
 }
+
+.image_3 {
+    padding: 30px;
+    background-color: #eee;
+    position: image_3;
+    height: 300px;
+    width: 400px;
+    left: 30px;
+    bottom: 100px; 
+}
+
+.image_4 {
+    padding: 30px;
+    background-color: #eee;
+    position: image_4;
+    height: 300px;
+    width: 350px;
+    right: 30px;
+    bottom: 100px; 
+}
 /* ################################### */
 
 .footer {
