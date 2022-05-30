@@ -32,7 +32,7 @@ li {
 /* ################################### */
 .main {
     background-color: #ffffe0;     /* 背景色指定 */
-    padding:  0%;             /* 余白指定 10px */
+    padding:  10%;             /* 余白指定 10px */
     height: 100%;              /* 高さ指定 x 600px 100%にしないと画面縮めた時にimageの要素がheader側にはみ出る */
     width: 100%;
     max-wigth:100%;
@@ -40,9 +40,9 @@ li {
     height: auto;        /* 縦横比を保つ */
   
   display: grid;
-  grid-gap 10px;
-  grid-template-columns: 2fr 1fr; /* 2:1 列(横)分け間隔 */
-  grid-template-rows: 4fr 3fr; /* 4:3 行(縦)分け間隔 */
+  grid-gap 2px 2px;
+  grid-template-columns: 3fr 2fr; /* 2:1 列(横)分け間隔 */
+  grid-template-rows: 3fr 1fr; /* 4:3 行(縦)分け間隔 */
 }
  
 .image {
