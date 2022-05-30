@@ -24,7 +24,11 @@ body {
 }
 
 /* ################################### */
-
+main{
+    display: grid;
+    min-height: 100vh;
+    margin: 10px 0 10px 0;
+}
 
 /* ### */
 .content{
@@ -32,12 +36,16 @@ body {
     background-color: #eee;
     text-align: center;
     margin-right: 10px;
+  width: 600px;
+  height: 400px;
 }
 .localNavigation{
     text-align: center;
     background-color: #888;
     color: #fff;
     width: 450px;
+  height: 400px;
+  
 }
 /* ################################### */
 
