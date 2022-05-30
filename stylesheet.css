@@ -26,14 +26,16 @@ main{
    /* flex: 1; */
 }
 .content{
-    display: grid;
-    height: 400px;
+    display: grid 2fr 1fr;
+    gap: 2%;
+    flex: 1;
     background-color: #eee;
     text-align: center;
     margin: 0 10px 0 10px;
 }
 .localNavigation{
     display: grid;
+    flex: 2;
     text-align: center;
     background-color: #888;
     color: #fff;
