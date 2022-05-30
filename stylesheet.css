@@ -19,13 +19,14 @@ main{
 }
 .content{
     /* flex:1; */
-    display: grid;
+    display: block;
     height: 400px;
     background-color: #eee;
     text-align: center;
     margin: 0 10px 0 10px;
 }
 .localNavigation{
+    display: grid;
     text-align: center;
     background-color: #888;
     color: #fff;
