@@ -4,7 +4,8 @@
 }
 
 .wrapper {
-  max-width: 2000px;
+  max-width: 100$;
+  height: auto;
   margin: 0 auto;
 }
 
