@@ -33,6 +33,7 @@ main{
     background-color: #eee;
     text-align: center;
     margin: 0 10px 0 10px;
+    width: 40%;
 }
 .localNavigation{
     display: grid;
@@ -40,7 +41,7 @@ main{
     text-align: center;
     background-color: #888;
     color: #fff;
-    width: 750px;
+    width: 60%;
 }
 .footer{
     height: 70px;
