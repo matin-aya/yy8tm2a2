@@ -28,18 +28,17 @@ main{
     right: 0px;
 }
 .content-area{
+  background: #808080;
       width: 40%;
-  /*  display: grid; */
-    flex: 1; */
 }
-.content{
-    display: grid 2fr 1fr;
-    gap: 2%;
-    flex: 1;
-    background-color: #eee;
-    text-align: center;
-    margin: 0 10px 0 10px;
-}
+/* .content{ */
+ /*    display: grid 2fr 1fr; */
+/*     gap: 2%; */
+/*     flex: 1; */
+/*     background-color: #eee; */
+/*     text-align: center; */
+/*     margin: 0 10px 0 10px; */
+/* } */
 .localNavigation{
     display: grid;
     flex: 1;
