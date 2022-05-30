@@ -7,6 +7,14 @@ body{
     background-color: #eee;
     text-align: center;
 }
+
+.glovalNavigation{
+    height: 70px;
+    text-align: center;
+    background-color: #888;
+    color: #fff;
+}
+
 main{
     display: flex;
     min-height: 100vh;
@@ -18,7 +26,7 @@ main{
     flex: 1;
 }
 .content{
-    /* flex:1; */
+    flex:1;
     display: block;
     height: 400px;
     background-color: #eee;
