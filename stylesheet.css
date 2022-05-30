@@ -18,8 +18,9 @@ main{
     flex: 1;
 }
 .content{
-    flex:1;
-    height: 200px;
+    /* flex:1; */
+    display: grid;
+    height: 400px;
     background-color: #eee;
     text-align: center;
     margin: 0 10px 0 10px;
@@ -28,7 +29,7 @@ main{
     text-align: center;
     background-color: #888;
     color: #fff;
-    width: 250px;
+    width: 550px;
 }
 .footer{
     height: 70px;
