@@ -8,13 +8,13 @@ body{
     flex-direction: column;
 }
 .header{
-    height: 20vh; /* height: 70px; */
+    height: 10vh; /* height: 70px; */
     background-color: #eee;
     text-align: center;
 }
 
 .glovalNavigation{
-    height: 15vh;
+    height: 5vh;
     text-align: center;
     background-color: #888;
     color: #fff;
@@ -29,7 +29,7 @@ main{
 .content-area{
   background: #eee;
      width: 40vw;　/* width: 40% だと"親要素に対して"40%の縮尺となる "vw"(viewport width)は画面の横幅に対する縮尺 */
-    height 55vh;
+     height: 80vh;
 }
 /* .content{ */
  /*    display: grid 2fr 1fr; */
@@ -46,10 +46,10 @@ main{
     background-color: #888;
     color: #fff;
     width: 60vw;
-      height 55vh;
+    height: 80vh;
 }
 .footer{
-    height: 10vh;
+    height: 5vh;
     text-align: center;
     background-color: #eee;
 }
