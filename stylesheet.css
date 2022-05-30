@@ -30,53 +30,22 @@ li {
 }
 
 /* ################################### */
-.main {
-    background-color: #ffffe0;     /* 背景色指定 */
-    padding:  10%;             /* 余白指定 10px */
-    height: 100%;              /* 高さ指定 x 600px 100%にしないと画面縮めた時にimageの要素がheader側にはみ出る */
-    width: 100%;
-    max-wigth:100%;
-    min-wigth:100%;
-    height: auto;        /* 縦横比を保つ */
-  
-  display: grid;
-  grid-gap 2px 2px;
-  grid-template-columns: 3fr 2fr; /* 2:1 列(横)分け間隔 */
-  grid-template-rows: 3fr 1fr; /* 4:3 行(縦)分け間隔 */
+main{
+    display: flex;
+    min-height: 100vh;
+    margin: 10px 0 10px 0;
 }
- 
-.image {
-    padding: 10px;
-    color:  #000;               /* 文字色 */
-    margin:  10px;              /* 外側の余白 */
-    border-radius:  5px;        /* 角丸指定 */
-    font-size:  20px;           /* 文字サイズ */
-    text-align:  center;        /* 文字中央揃え */
+.content{
+    flex: 1;
+    background-color: #eee;
+    text-align: center;
+    margin-right: 10px;
 }
- 
-/* nth-child()内の数字はimageに指定したリスト?の"n番目の要素"を意味する */
-.image:nth-child(1) {
-    background-color:  #2196F3; /* 背景色指定 */
-    width: 550px;               /* 幅指定 550px 55%*/
-    height: 300px;              /* 幅指定 400px 50%*/
-}
-
-.image:nth-child(2) {
-    background-color:  #4CAF50; /* 背景色指定 */
-    width: 450px;                /* 幅指定 350px 35% */
-    height: 300px;                /* 幅指定 400px 40% */
-} 
-
-.image:nth-child(3) {
-    background-color: #3F51B5; /* 背景色指定 */
-    width: 550px;               /* 幅指定 550px 55%*/
-    height: 200px;              /* 幅指定 100px 30%*/
-}
-
-.image:nth-child(4) {
-    background-color:  #00BCD4; /* 背景色指定 */
-    width: 450px;                /* 幅指定 350px 35%*/
-    height: 200px;               /* 幅指定 100px 30%*/
+.local_menu{
+    text-align: center;
+    background-color: #888;
+    color: #fff;
+    width: 250px;
 }
 /* ################################### */
 
