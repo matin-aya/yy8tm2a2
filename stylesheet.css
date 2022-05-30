@@ -22,8 +22,8 @@ main{
     right: 0px;
 }
 .content-area{
-    display: flex;
-    flex: 1;
+    display: grid;
+   /* flex: 1; */
 }
 .content{
     height: 400px;
