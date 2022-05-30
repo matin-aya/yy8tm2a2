@@ -8,7 +8,7 @@
 　flex-direction: column;
 　}
 .header{
-    height: 20vh; /* height: 70px; 20vh*/
+    height: 20vh; /* height: 70px; 20vh */
     width: 100%;
     background-color: #eee;
     text-align: center;
@@ -26,7 +26,15 @@ main{
     /* min-height: 100vh; */
     margin: 10px 0 10px 0;
     right: 0px;
+/* */
+  padding:  10%;             /* 余白指定 10px */
+    height: 100%;              /* 高さ指定 x 600px 100%にしないと画面縮めた時にimageの要素がheader側にはみ出る */
+    width: 100%;
+    max-wigth:100%;
+    min-wigth:100%;
+    height: auto;        /* 縦横比を保つ */
 }
+
 .content-area{
   background: #eee;
      width: 40vw;　/* width: 40% だと"親要素に対して"40%の縮尺となる "vw"(viewport width)は画面の横幅に対する縮尺 */
