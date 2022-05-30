@@ -24,19 +24,7 @@ body {
 }
 
 /* ################################### */
-.main {
-    padding:  10%;             /* 余白指定 10px */
-    height: 100%;              /* 高さ指定 x 600px 100%にしないと画面縮めた時にimageの要素がheader側にはみ出る */
-    width: 100%;
-    max-wigth:100%;
-    min-wigth:100%;
-    height: auto;        /* 縦横比を保つ */
-  
-     display: flex;
-    min-height: 100vh;
-    margin: 10px 0 10px 0;
-  
-}
+
 
 /* ### */
 .content{
