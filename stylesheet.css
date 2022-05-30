@@ -11,8 +11,9 @@ body {
 
 .header {
   background-color: #eee;
+  text-align: center;
   color: #000;
-  height: 90px;
+  height: 70px;
 }
 
 .glovalNavigation{
@@ -31,6 +32,11 @@ body {
     max-wigth:100%;
     min-wigth:100%;
     height: auto;        /* 縦横比を保つ */
+  
+     display: flex;
+    min-height: 100vh;
+    margin: 10px 0 10px 0;
+  
 }
 
 /* ### */
