@@ -1,45 +1,37 @@
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
-.container {
-  max-width: 100%; /* 画面の横一杯にオブジェクトの横幅が広がる */
-  max-height: 100%; /* 画面の横一杯にオブジェクトの縦幅が広がる */
-  margin: 2em auto;
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-template-rows: repeat(3,auto);
-  grid-gap: 1rem;
-}
-
 body{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    height: 70px;
+    text-align: center;
+    background-color: #eee;
+}
+.glovalNavigation{
+    height: 70px;
+    text-align: center;
+    background-color: #888;
+    color: #fff;
+}
+main{
     display: flex;
     min-height: 100vh;
     margin: 10px 0 10px 0;
 }
- 
-.container header {
-/*  grid-area: 1/1/2/3; */
-  height 70px;
+.content{
+    flex: 1;
+    background-color: #eee;
+    text-align: center;
+    margin-right: 10px;
 }
- 
-.container main {
-/*   grid-area: 2/1/3/2; */
-    height 600px;
+.localNavigation{
+    text-align: center;
+    background-color: #888;
+    color: #fff;
+    width: 250px;
 }
- 
-.container aside {
- /*  grid-area: 2/2/3/3; */
-    height 600px;
-}
- 
-.container footer {
-/*   grid-area: 3/1/4/3; */
-    height 70px;
-}
- 
-.container > * {
-  background-color: #ddd;
-  padding: 1rem;
+.footer{
+    height: 70px;
+    text-align: center;
+    background-color: #eee;
 }
