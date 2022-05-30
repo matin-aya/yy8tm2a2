@@ -8,7 +8,7 @@ body{
     flex-direction: column;
 }
 .header{
-    height: 70px;
+    height: 90px;
     text-align: center;
     background-color: #eee;
 }
@@ -27,7 +27,7 @@ main{
     height: auto;        /* 縦横比を保つ */
 }
 .content{
-    flex: 1;
+    flex: 2;
     background-color: #eee;
     text-align: center;
     margin-right: 10px;
