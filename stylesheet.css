@@ -1,48 +1,34 @@
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
 body{
     display: flex;
     flex-direction: column;
 }
 .header{
     height: 70px;
-    text-align: center;
     background-color: #eee;
-}
-.glovalNavigation{
-    height: 70px;
     text-align: center;
-    background-color: #888;
-    color: #fff;
 }
-.main {
-    background-color: #ffffe0;     /* 背景色指定 */
-    padding:  10%;             /* 余白指定 10px */
-  display: flex;
-  height: 100%;              /* 高さ指定 x 600px 100%にしないと画面縮めた時にimageの要素がheader側にはみ出る */
-    width: 100%;
-    max-wigth:100%;
-    min-wigth:100%;
-    height: auto;        /* 縦横比を保つ */
+main{
+    display: flex;
+    min-height: 100vh;
+    margin: 10px 0 10px 0;
+    right: 0px;
 }
-
-.content{
+.content-area{
+    display: flex;
     flex: 1;
+}
+.content{
+    flex:1;
+    height: 200px;
     background-color: #eee;
     text-align: center;
-    margin-right: 10px;
-    width: 550px;
-    height: 600px;
+    margin: 0 10px 0 10px;
 }
 .localNavigation{
     text-align: center;
     background-color: #888;
     color: #fff;
-    width: 450px;
-    height: 600px;
+    width: 250px;
 }
 .footer{
     height: 70px;
