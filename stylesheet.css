@@ -1,66 +1,38 @@
 /* header上の謎の余白はcode中の"全角スペース"(comment部分中含む)が原因? (ref: https://ogatanoyarou.com/index.php/2021/03/09/154/) */
-* {
-  margin: 0px;
-  padding: 0px;
+body{
+    display: flex;
+    flex-direction: column;
 }
-
-body {
-  font-family: "Avenir Next";
-  display: flex;
-  flex-direction: column;
+.header{
+    height: 70px;
+    text-align: center;
+    background-color: #eee;
 }
-
-li {
-  list-style: none;
-  float: right;  
-  /* 上, 右, 下, 左のpaddingを40px, 20px, 20px, 20pxにしてください */
-  padding: 35px 40px 20px 20px;
+.glovalNavigation{
+    height: 70px;
+    text-align: center;
+    background-color: #888;
+    color: #fff;
 }
-
-.header {
-  background-color: #191970;
-  color: #fff;
-  height: 90px;
-}
-
-/* header-logoの文字の大きさを36px, floatプロパティをleftにしてください */
-.header-logo {
-  float: left;
-  font-size: 36px;
-/* 上下のpaddingを20px, 左右のpaddingを40pxにしてください */
-  padding: 20px 40px;
-}
-
-/* ################################### */
 main{
     display: flex;
     min-height: 100vh;
     margin: 10px 0 10px 0;
-/* ### */  
-    background-color: #ffffe0;     /* 背景色指定 */
-    padding:  10%;             /* 余白指定 10px */
-    height: 100%;              /* 高さ指定 x 600px 100%にしないと画面縮めた時にimageの要素がheader側にはみ出る */
-    width: 100%;
-    max-wigth:100%;
-    min-wigth:100%;
-    height: auto;        /* 縦横比を保つ */  
 }
-
 .content{
     flex: 1;
     background-color: #eee;
     text-align: center;
     margin-right: 10px;
 }
-.local_menu{
+.localNavigation{
     text-align: center;
     background-color: #888;
     color: #fff;
-    width: 400px;
+    width: 250px;
 }
-/* ################################### */
-
-.footer {
-  background-color: #191970;
-  height: 70px;
+.footer{
+    height: 70px;
+    text-align: center;
+    background-color: #eee;
 }
