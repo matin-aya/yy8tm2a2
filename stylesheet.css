@@ -29,7 +29,7 @@ main{
 }
 .content-area{
   background: #eee;
-      width: 40%;
+     /* width: 40%;　*/
 }
 /* .content{ */
  /*    display: grid 2fr 1fr; */
@@ -45,7 +45,7 @@ main{
     text-align: center;
     background-color: #888;
     color: #fff;
-    width: 60%;
+   /* width: 60%;　*/
 }
 .footer{
     height: 70px;
