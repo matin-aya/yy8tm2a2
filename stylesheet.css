@@ -10,8 +10,11 @@ body{
 }
 .header{
     height: 20vh; /* height: 70px; */
+    width: 100vw;
     background-color: #eee;
     text-align: center;
+    top: 0;
+    left: 0;
 }
 
 .glovalNavigation{
@@ -49,8 +52,20 @@ main{
     width: 60vw;
     height: 80vh;
 }
+
+@media (max-width: 600px){
+  .main {
+    flex-direction: column;
+  }
+  .localNavigation,
+  .content {
+    width: 100%;
+  }
+}
+
 .footer{
     height: 10vh;
+    width: 100vw;
     text-align: center;
     background-color: #eee;
 }
