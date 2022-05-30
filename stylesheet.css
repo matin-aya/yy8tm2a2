@@ -3,12 +3,12 @@
   padding: 0px;
 }
 
-/* body{ */
-/*    display: flex; */
-/*    flex-direction: column; */
-/*}
+ body{ 
+ display: flex;
+　flex-direction: column;
+　}
 .header{
-    height: 70px; /* height: 70px; 20vh*/
+    height: 20vh; /* height: 70px; 20vh*/
     width: 100%;
     background-color: #eee;
     text-align: center;
