@@ -1,7 +1,6 @@
 * {
   margin: 0px;
   padding: 0px;
-  height: auto;
 }
 
 body{
@@ -9,12 +8,10 @@ body{
     flex-direction: column;
 }
 .header{
-    height: 20vh; /* height: 70px; */
+    height: 70px; /* height: 70px; 20vh*/
     width: 100vw;
     background-color: #eee;
     text-align: center;
-    top: 0;
-    left: 0;
 }
 
 .glovalNavigation{
