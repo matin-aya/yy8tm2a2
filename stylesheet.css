@@ -26,6 +26,7 @@ main{
    /* flex: 1; */
 }
 .content{
+    display: grid;
     height: 400px;
     background-color: #eee;
     text-align: center;
@@ -36,7 +37,7 @@ main{
     text-align: center;
     background-color: #888;
     color: #fff;
-    width: 550px;
+    width: 750px;
 }
 .footer{
     height: 70px;
