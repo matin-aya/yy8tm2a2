@@ -16,7 +16,8 @@ body{
 main{
     display: flex;
     min-height: 100vh; /* <- max-height 100vhにしたらmainの高さがheader並に縮んで伸びなくなった。*/
-    max-width: 100vh;
+    max-height 100vh;
+    max-width: 100vh; /* <- max-width 100vhにしたらmainの幅が縮まって右に余白ができた。*/
     margin: 10px 0 10px 0;
 }
 .content{
