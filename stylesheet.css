@@ -26,8 +26,6 @@ main{
     flex: 1;
 }
 .content{
-    flex:1;
-    display: block;
     height: 400px;
     background-color: #eee;
     text-align: center;
