@@ -14,22 +14,22 @@
 }
  
 .container header {
-  grid-area: 1/1/2/3;
+/*  grid-area: 1/1/2/3; */
   height 70px;
 }
  
 .container main {
-  grid-area: 2/1/3/2;
+/*   grid-area: 2/1/3/2; */
     height 600px;
 }
  
 .container aside {
-  grid-area: 2/2/3/3;
+ /*  grid-area: 2/2/3/3; */
     height 600px;
 }
  
 .container footer {
-  grid-area: 3/1/4/3;
+/*   grid-area: 3/1/4/3; */
     height 70px;
 }
  
