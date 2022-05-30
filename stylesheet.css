@@ -9,7 +9,7 @@
 /*}
 .header{
     height: 70px; /* height: 70px; 20vh*/
-    width: 100vw;
+    width: 100%;
     background-color: #eee;
     text-align: center;
 }
@@ -48,17 +48,6 @@ main{
     color: #fff;
     width: 60vw;
     height: 80vh;
-}
-
-/* 600px */
-@media (max-width: 1200px){
-  .main {
-    flex-direction: column;
-  }
-  .localNavigation,
-  .content {
-    width: 100%;
-  }
 }
 
 .footer{
