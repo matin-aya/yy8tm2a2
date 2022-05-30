@@ -27,10 +27,11 @@ main{
     margin: 10px 0 10px 0;
     right: 0px;
 }
-/* .content-area{ */
+.content-area{
+      width: 40%;
   /*  display: grid; */
     flex: 1; */
-/* } */
+}
 .content{
     display: grid 2fr 1fr;
     gap: 2%;
@@ -38,7 +39,6 @@ main{
     background-color: #eee;
     text-align: center;
     margin: 0 10px 0 10px;
-    width: 40%;
 }
 .localNavigation{
     display: grid;
