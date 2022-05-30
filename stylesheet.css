@@ -1,4 +1,3 @@
-/* header上の謎の余白はcode中の"全角スペース"(comment部分中含む)が原因? (ref: https://ogatanoyarou.com/index.php/2021/03/09/154/) */
 body{
     display: flex;
     flex-direction: column;
