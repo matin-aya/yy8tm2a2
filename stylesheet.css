@@ -35,12 +35,15 @@ main{
     background-color: #eee;
     text-align: center;
     margin-right: 10px;
+    width: 550px;
+    height: 600px;
 }
 .localNavigation{
     text-align: center;
     background-color: #888;
     color: #fff;
     width: 450px;
+    height: 600px;
 }
 .footer{
     height: 70px;
