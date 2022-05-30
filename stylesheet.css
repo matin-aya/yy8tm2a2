@@ -23,13 +23,13 @@ body{
 main{
     display: flex;
     /* min-height: 100vh; */
-    height 55vh;
     margin: 10px 0 10px 0;
     right: 0px;
 }
 .content-area{
   background: #eee;
      width: 40vw;　/* width: 40% だと"親要素に対して"40%の縮尺となる "vw"(viewport width)は画面の横幅に対する縮尺 */
+    height 55vh;
 }
 /* .content{ */
  /*    display: grid 2fr 1fr; */
@@ -46,6 +46,7 @@ main{
     background-color: #888;
     color: #fff;
     width: 60vw;
+      height 55vh;
 }
 .footer{
     height: 10vh;
