@@ -6,6 +6,8 @@
 
 body {
   font-family: "Avenir Next";
+  display: flex;
+  flex-direction: column;
 }
 
 li {
