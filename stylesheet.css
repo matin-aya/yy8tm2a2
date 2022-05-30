@@ -9,7 +9,9 @@
 　}
 .header{
     height: 20vh; /* height: 70px; 20vh */
+    min-height: 600px;
     width: 100%;
+    min-width: 600px;
     background-color: #eee;
     text-align: center;
 }
