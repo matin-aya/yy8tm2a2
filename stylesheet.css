@@ -41,7 +41,8 @@ max-height: 100vh; /* 80vh */
 	
 	width: 66.6%;
 	max-width: 850px;
-	height: auto;
+	height: 44.4%; /* */
+	max-height: 500px; /* */
 	
 	
 	/* width: 850px; */
@@ -65,7 +66,8 @@ max-height: 100vh; /* 80vh */
 
 	width: 33.3%;
 	max-width: 550px;
-	height: auto;
+	height: 22.2%; /* */
+	max-height: 500px; /* */
 	
 	
 	/* width: 550px; */
