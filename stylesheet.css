@@ -1,7 +1,15 @@
 body{
-    display: flex;
+    /* display: flex; */
+	display:block;
     flex-direction: column;
 }
+
+@media screen and(min-width:768px){
+body{
+		display:flex;
+}
+
+
 .header{
     height: 70px;
     text-align: center;
@@ -15,16 +23,10 @@ body{
 }
 main{
     display: flex;
-    /* display: flex; */
     min-height: 100vh;
     margin: 10px 0 10px 0;
 }
 
-/* ウィンドウサイズ767px以下でmain{}のdisplayがflex -> blockで上書きされる */
-@media screen and(max-width:600px){
-main{
-		display:block;
-}
 
 .content{
     /* flex: 1; */
