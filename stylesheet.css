@@ -8,13 +8,6 @@ body{
     flex-direction: column;
 }
 
-@media screen and(max-width:767px){
-body{
- display:block;
-}
-
-
-
 .header{
     height: 70px;
     text-align: center;
