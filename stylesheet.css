@@ -23,8 +23,8 @@ body{
 main{
     display: flex;
 	
-	width: 1400px;
-	height: 800px;
+	width: 1000px;
+	height: 500px;
 	
 /*  min-height: 70vh; /* 60vh */ */
 /* max-height: 100vh; /* 80vh */ */
@@ -44,8 +44,8 @@ main{
     margin-bottom: 20px;             /* */
   /*   width: 850px; /* 850px */ */
 	
-	width: 550px;
-	height: 500px;
+	width: 400px;
+	height: 300px;
 	max-width: 100%;
 	
     /* height: auto; */ /* height: auto;があると横幅に余白ができてしまう */
@@ -61,7 +61,7 @@ main{
    /* height: auto;  */ /* height: auto;があると横幅に余白ができてしまう */
 
 	width: 350px;
-	height: 550px;
+	height: 300px;
 	max-width: 100%;
 
 }
