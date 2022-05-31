@@ -8,6 +8,12 @@ body{
     flex-direction: column;
 }
 
+@media screen and(max-width:767px){
+body{
+		display:block;
+}
+
+
 .header{
     height: 70px;
     text-align: center;
@@ -34,14 +40,14 @@ main{
     text-align: center;
    margin-right: 10px;
     width: 850px; /* 850px */
-    /* height: auto; */ /* height: auto;があると横幅に余白ができてしまう /*
+    /* height: auto; */ /* height: auto;があると横幅に余白ができてしまう */
 }
 .localNavigation{
     text-align: center;
     background-color: #888;
     color: #fff;
     width: 550px; /* 550px */
-   /* height: auto;  */ /* height: auto;があると横幅に余白ができてしまう /*
+   /* height: auto;  */ /* height: auto;があると横幅に余白ができてしまう */
 }
 .footer{
     height: 70px;
