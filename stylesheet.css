@@ -23,8 +23,9 @@ body{
 main{
     display: flex;
 	
-min-height: 70vh; /* 60vh */
-max-height: 100vh; /* 80vh */
+/*　min-height: 70vh; /* 60vh */　*/
+/*　max-height: 100vh; /* 80vh */　*/
+	max-width: 1000px;
 
     margin: 10px 0 10px 0;
 
@@ -37,7 +38,9 @@ max-height: 100vh; /* 80vh */
     margin-left: 30px;             /* */
     margin-top: 20px;             /* */
     margin-bottom: 20px;             /* */
-   width: 850px; /* 850px */
+  /*  width: 850px; /* 850px */ */
+	
+   width: 50%;  /* */	
    padding-top: 50%;  /* */
 		
 	/* width: 850px; */
@@ -53,13 +56,14 @@ max-height: 100vh; /* 80vh */
     text-align: center;
     background-color: #888;
     color: #fff;
-    width: 550px; /* 550px */
+    /* width: 550px; /* 550px */ */
     margin-right: 30px;           /* */
     margin-top: 20px;             /* */
     margin-bottom: 20px;             /* */
    /* height: auto;  */ /* height: auto;があると横幅に余白ができてしまう */
 	
-	   padding-top: 50%;  /* */
+	 width: 50%;  /* */	
+         padding-top: 50%;  /* */
 		   
 	/* width: 550px; */
 	/* height: 500px; */
