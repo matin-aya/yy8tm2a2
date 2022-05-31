@@ -20,7 +20,7 @@ main{
     margin: 10px 0 10px 0;
 }
 
-@media screen and(min-width:768px){
+@media screen and(min-width:1000px){
 main{
 		display:flex;
 }
@@ -30,7 +30,7 @@ main{
     background-color: #eee;
     text-align: center;
     /* margin-right: 10px;　*/
-    width: 550px; /* */
+    width: 1000px; /* */
 }
 .localNavigation{
     flex: 1;
