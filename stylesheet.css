@@ -14,10 +14,17 @@ body{
     color: #fff;
 }
 main{
-    display: flex;
+    display:block;
+    /* display: flex; */
     min-height: 100vh;
     margin: 10px 0 10px 0;
 }
+
+@media screen and(min-width:768px){
+main{
+		display:flex;
+}
+
 .content{
     /* flex: 1; */
     background-color: #eee;
