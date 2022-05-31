@@ -20,7 +20,6 @@ main{
   
     width: 100%;
     height: 100%;
-    padding-top: 2%;
   /* main全体の縦横比固定？ */  
   /*  width: 100%; */ 
   /*  height: auto; */ 
@@ -32,6 +31,7 @@ main{
     background-color: #eee;
     text-align: center;
     margin-right: 10px;
+    width: 750px;
 }
 .localNavigation{
     text-align: center;
