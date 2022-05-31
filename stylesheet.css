@@ -12,14 +12,12 @@ body{
     height: 70px;
     text-align: center;
     background-color: #eee;
-	wigth: 1410px; /* */
 }
 .glovalNavigation{
     height: 70px;
     text-align: center;
     background-color: #888;
     color: #fff;
-	wigth: 1410px; /* */
 }
 main{
     display: flex;
@@ -49,5 +47,4 @@ main{
     height: 70px;
     text-align: center;
     background-color: #eee;
-	wigth: 1410px; /* */
 }
