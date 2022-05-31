@@ -22,7 +22,7 @@ main{
     display: flex;
     min-height: 70vh; /* 60vh */
     max-height: 100vh; /* 80vh */
-    min-width: 100vh;
+    /* min-width: 100vh; */
     /* max-width: 100vh; 80vh */
     margin: 10px 0 10px 0;
 
@@ -33,14 +33,14 @@ main{
     text-align: center;
    margin-right: 10px;
     width: 850px; /* 850px */
-    height: auto; /* */
+    /* height: auto; */
 }
 .localNavigation{
     text-align: center;
     background-color: #888;
     color: #fff;
     width: 550px; /* 550px */
-    height: auto; /* */
+   /* height: auto;  */
 }
 .footer{
     height: 70px;
