@@ -17,14 +17,13 @@ main{
     display: flex;
     min-height: 100vh;
     margin: 10px 0 10px 0;
-        width: 100px;
 }
 .content{
     /* flex: 1; */
     background-color: #eee;
     text-align: center;
     /* margin-right: 10px;　*/
-    width: 2000px; /* */
+    width: 550px; /* */
 }
 .localNavigation{
     flex: 1;
