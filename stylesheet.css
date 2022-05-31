@@ -23,7 +23,7 @@ main{
     min-height: 70vh; /* 60vh */
     max-height: 100vh; /* 80vh */
     /* min-width: 100vh; */
-    max-width: 80vh; /* */
+    max-width: 100vh; /* 80vh */
     margin: 10px 0 10px 0;
 
 }
