@@ -23,7 +23,7 @@ main{
     /* flex: 1; */
     background-color: #eee;
     text-align: center;
-    margin-right: 10px;
+    /* margin-right: 10px;　*/
     width: 1000px; /* */
 }
 .localNavigation{
@@ -31,6 +31,7 @@ main{
     text-align: center;
     background-color: #888;
     color: #fff;
+    margin-left: 10px;
     /* width: 250px; */
 }
 .footer{
