@@ -14,15 +14,16 @@ body{
     color: #fff;
 }
 main{
-    display:block;
+    display: flex;
     /* display: flex; */
     min-height: 100vh;
     margin: 10px 0 10px 0;
 }
 
-@media screen and(min-width:1000px){
+/* ウィンドウサイズ767px以下でmain{}のdisplayがflex -> blockで上書きされる */
+@media screen and(max-width:600px){
 main{
-		display:flex;
+		display:block;
 }
 
 .content{
@@ -30,7 +31,7 @@ main{
     background-color: #eee;
     text-align: center;
     /* margin-right: 10px;　*/
-    width: 1000px; /* */
+    width: 800px; /* */
 }
 .localNavigation{
     flex: 1;
