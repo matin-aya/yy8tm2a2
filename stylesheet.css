@@ -22,10 +22,11 @@ body{
 }
 main{
     display: flex;
-   min-height: 70vh; /* 60vh */
-  max-height: 100vh; /* 80vh */
+  /* min-height: 70vh; /* 60vh */ */
+ /* max-height: 100vh; /* 80vh */ */
 
-	position: fixed; /* */
+   min-height: 70%;
+  max-height: 100%;
 	
     /* min-width: 100vh; */
     /* max-width: 100vh; 80vh */
