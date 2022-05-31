@@ -18,10 +18,13 @@ main{
     min-height: 100vh;
     margin: 10px 0 10px 0; /* 10px 0 10px 0 */  
   
+    width: 100%;
+    height: 100%;
+    padding-top: 2%;
   /* main全体の縦横比固定？ */  
-  width: 100%;
-  height: auto;
-  padding-top: 75%;
+  /*  width: 100%; */ 
+  /*  height: auto; */ 
+  /*  padding-top: 75%; */ 
     
 }
 .content{
