@@ -1,14 +1,7 @@
 body{
-    /* display: flex; */
-	display:block;
+    display: flex;
     flex-direction: column;
 }
-
-@media screen and(min-width:768px){
-body{
-		display:flex;
-}
-
 
 .header{
     height: 70px;
