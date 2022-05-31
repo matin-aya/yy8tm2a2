@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
 }
 .header{
     height: 70px;
