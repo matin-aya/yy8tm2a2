@@ -15,7 +15,8 @@ body{
 }
 main{
     display: flex;
-    min-height: 50vh;
+    min-height: 60vh;
+    min-weight: 100vh;
     margin: 10px 0 10px 0;
 }
 .content{
