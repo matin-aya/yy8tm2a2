@@ -18,6 +18,8 @@ main{
     display: flex;
     min-height: 100vh;
     margin: 10px 0 10px 0;
+        width: 100px;
+    flex-shrink: 0;
 }
 .content{
     flex: 1;
