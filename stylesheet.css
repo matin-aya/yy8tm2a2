@@ -17,9 +17,9 @@ main{
     display: flex;
     min-height: 100vh;
     margin: 10px 0 10px 0; /* 10px 0 10px 0 */  
-  
+  position: fixed;
   /* main全体の縦横比固定？ */  
-  width: 100%;
+  /* width: 100%;　*/
   /*  height: auto; */ 
   /*  padding-top: 75%; */ 
     
@@ -29,7 +29,6 @@ main{
     background-color: #eee;
     text-align: center;
     margin-right: 10px;
-    width: 750px;
 }
 .localNavigation{
     text-align: center;
