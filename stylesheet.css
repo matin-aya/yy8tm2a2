@@ -38,6 +38,7 @@ max-height: 100vh; /* 80vh */
     margin-top: 20px;             /* */
     margin-bottom: 20px;             /* */
    width: 850px; /* 850px */
+   height: 850px;
 		
 	/* width: 850px; */
 	/* height: 500px; */
@@ -58,7 +59,8 @@ max-height: 100vh; /* 80vh */
     margin-bottom: 20px;             /* */
    /* height: auto;  */ /* height: auto;があると横幅に余白ができてしまう */
 	
-	
+	   height: 850px;
+		   
 	/* width: 550px; */
 	/* height: 500px; */
 	/* max-height: 100%; */
