@@ -24,14 +24,14 @@ main{
     display: flex;
 	
 	width: 1000px;
-	height: 300px;
+	height: auto;
 	
 /*  min-height: 70vh; /* 60vh */ */
 /* max-height: 100vh; /* 80vh */ */
 
     /* min-width: 100vh; */
     /* max-width: 100vh; 80vh */
-   /* margin: 10px 0 10px 0;  */
+    margin: 10px 0 10px 0;
 
 }
 .content{
