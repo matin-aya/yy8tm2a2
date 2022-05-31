@@ -16,7 +16,7 @@ body{
 main{
     display: flex;
     min-height: 100vh;
-    margin: 10px 0 10px 0;
+    margin: 10px 0 10px 0; /* 10px 0 10px 0 */  
   
   /* main全体の縦横比固定？ */  
   width: 100%;
@@ -34,7 +34,7 @@ main{
     text-align: center;
     background-color: #888;
     color: #fff;
-    width: 450px;
+    width: 250px;
 }
 .footer{
     height: 70px;
