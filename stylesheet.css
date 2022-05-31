@@ -22,12 +22,9 @@ body{
 }
 main{
     display: flex;
-  /* min-height: 70vh; /* 60vh */ */
- /* max-height: 100vh; /* 80vh */ */
+  min-height: 70vh; /* 60vh */
+ max-height: 100vh; /* 80vh */
 
-   min-height: 70%;
-  max-height: 100%;
-	
     /* min-width: 100vh; */
     /* max-width: 100vh; 80vh */
     margin: 10px 0 10px 0; /* */
@@ -42,6 +39,9 @@ main{
     margin-top: 20px;             /* */
     margin-bottom: 20px;             /* */
     width: 850px; /* 850px */
+	
+	max-width: 100%;
+	
     /* height: auto; */ /* height: auto;があると横幅に余白ができてしまう */
 }
 .localNavigation{
@@ -53,6 +53,9 @@ main{
     margin-top: 20px;             /* */
     margin-bottom: 20px;             /* */
    /* height: auto;  */ /* height: auto;があると横幅に余白ができてしまう */
+
+	max-width: 100%;
+
 }
 .footer{
     height: 70px;
