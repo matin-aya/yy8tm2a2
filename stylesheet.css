@@ -19,7 +19,7 @@ main{
     margin: 10px 0 10px 0; /* 10px 0 10px 0 */  
   
   /* main全体の縦横比固定？ */  
-  /*  width: 100%; */ 
+  width: 100%;
   /*  height: auto; */ 
   /*  padding-top: 75%; */ 
     
@@ -30,14 +30,12 @@ main{
     text-align: center;
     margin-right: 10px;
     width: 750px;
-    height: 600px;
 }
 .localNavigation{
     text-align: center;
     background-color: #888;
     color: #fff;
-    width: 250px;
-    height: 600px;
+    width: 350px;
 }
 .footer{
     height: 70px;
