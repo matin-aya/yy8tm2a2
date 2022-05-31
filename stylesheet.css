@@ -15,7 +15,7 @@ body{
 }
 main{
     display: flex;
-    min-height: 100vh;
+    min-height: 80vh;
     margin: 10px 0 10px 0;
 }
 .content{
