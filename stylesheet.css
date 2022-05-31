@@ -33,7 +33,7 @@ main{
     background-color: #eee;
     text-align: center;
     /* margin-right: 10px;　*/
-    width: 800px; /* */
+    width: 500px; /* */
 }
 .localNavigation{
     flex: 1;
