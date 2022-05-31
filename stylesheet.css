@@ -39,6 +39,7 @@ main{
     margin-top: 20px;             /* */
     margin-bottom: 20px;             /* */
     width: 850px; /* 850px */
+	height: 550px;
 	
 	max-width: 100%;
 	
@@ -54,6 +55,7 @@ main{
     margin-bottom: 20px;             /* */
    /* height: auto;  */ /* height: auto;があると横幅に余白ができてしまう */
 
+	height: 550px;
 	max-width: 100%;
 
 }
