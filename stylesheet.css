@@ -1,6 +1,8 @@
 * {
 	float: none;
 	position: static;
+	width: 100%;
+	height: auto;
 }
 
 body{
