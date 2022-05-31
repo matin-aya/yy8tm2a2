@@ -16,8 +16,8 @@ body{
 main{
     display: flex;
     min-height: 60vh;
+    max-height: 80vh; /* */
     min-weight: 100vh;
-    /* */
     margin: 10px 0 10px 0;
 }
 .content{
