@@ -11,15 +11,7 @@ body{
     height: 100px;  /* 70px */
     text-align: center;
     background-color: #eee;
-    margin: 10px 0 10px 0; /* */
-}
-.header-logo {
-  float: left;
-  text-align: center;
-  font-size: 36px;
-/* 上下のpaddingを20px, 左右のpaddingを40pxにしてください */
-  padding: 20px 40px;
-	margin: 0 auto;
+    margin: 10px; /* 10px 0 10px 0; */
 }
 
 .glovalNavigation{
