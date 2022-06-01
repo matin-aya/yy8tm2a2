@@ -26,6 +26,7 @@ body{
     margin: 10px 0 10px 0;
     color: #fff;
 	list-style-type: none; /* リスト先頭の黒丸を非表示 */
+	text-align: center; /* */
 	padding-left: 0;
 }
 .header-list ul {
