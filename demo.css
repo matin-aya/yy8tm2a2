@@ -1,0 +1,88 @@
+* {
+	float: none;
+	position: static;
+}
+
+/* スマホのような細長い画面では、縦並べ表示にレイアウトを変更？ */
+@media screen and(max-width:767px){
+html{
+      display:block;
+ }
+/* ##############################################＃## */	
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    height: 100px;  /* 70px */
+    text-align: center;
+    background-color: #eee;
+    margin: 10px 0 10px 0; /* */
+}
+.glovalNavigation{
+    height: 70px;
+    text-align: center;
+    background-color: #888;
+    color: #fff;
+}
+main{
+    display: flex;
+	
+/* min-height: 70vh; /* 60vh */　*/　
+/* max-height: 100vh; /* 80vh */　*/　
+	max-width: 1000px;
+	max-height: 800px;  /*　*/
+
+    margin: 10px 0 10px 0;
+
+}
+.content{
+    /* flex: 1; */
+    background-color: #eee;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 30px;             /* */
+    margin-top: 20px;             /* */
+    margin-bottom: 20px;             /* */
+  width: 850px; /* 850px */ 
+	
+   width: 60%;  /* */	
+   padding-top: 40%;  /* */
+		
+	/* width: 850px; */
+	/* height: 500px; */
+	/* max-height: 100%; */
+	/* max-width: 100%; */
+	/* min-height: 100%; */
+	/* min-width: 100%; */
+	
+    /* height: auto; */ /* height: auto;があると横幅に余白ができてしまう */
+}
+.localNavigation{
+    text-align: center;
+    background-color: #888;
+    color: #fff;
+    width: 550px; /* 550px */ 
+    margin-right: 30px;           /* */
+    margin-top: 20px;             /* */
+    margin-bottom: 20px;             /* */
+   /* height: auto;  */ /* height: auto;があると横幅に余白ができてしまう */
+	
+	 width: 40%;  /* */	
+         padding-top: 40%;  /* */
+		   
+	/* width: 550px; */
+	/* height: 500px; */
+	/* max-height: 100%; */
+	/* max-width: 100%; */
+	/* min-height: 100%; */
+	/* min-width: 100%; */
+	
+}
+.footer{
+    height: 165px; /* 70px 140px */
+    text-align: center;
+    background-color: #eee;
+}
