@@ -38,6 +38,7 @@ main{
     margin: 10px 0 10px 0;
 
 }
+
 .content{
     /* flex: 1; */
     background-color: #eee;
@@ -50,17 +51,9 @@ main{
 	
    width: 60%;  /* */	
    padding-top: 40%;  /* */
-		
-	/* width: 850px; */
-	/* height: 500px; */
-	/* max-height: 100%; */
-	/* max-width: 100%; */
-	/* min-height: 100%; */
-	/* min-width: 100%; */
-	
-    /* height: auto; */ /* height: auto;があると横幅に余白ができてしまう */
 }
-.localNavigation{
+
+.localNavigation{	
     text-align: center;
     background-color: #888;
     color: #fff;
@@ -68,19 +61,12 @@ main{
     margin-right: 30px;           /* */
     margin-top: 20px;             /* */
     margin-bottom: 20px;             /* */
-   /* height: auto;  */ /* height: auto;があると横幅に余白ができてしまう */
 	
 	 width: 40%;  /* */	
-         padding-top: 40%;  /* */
-		   
-	/* width: 550px; */
-	/* height: 500px; */
-	/* max-height: 100%; */
-	/* max-width: 100%; */
-	/* min-height: 100%; */
-	/* min-width: 100%; */
-	
+         padding-top: 40%;  /* */	
 }
+
+
 .footer{
     height: 165px; /* 70px 140px */
     text-align: center;
