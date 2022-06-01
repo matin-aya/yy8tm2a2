@@ -3,7 +3,7 @@
 	position: static;
 }
 body{
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
 }
 
@@ -28,6 +28,7 @@ body{
 }
 
 .glovalNavigation li {
+　  display: inline;
    font-color: #fff;
    list-style: none;
    float: center;
@@ -46,8 +47,9 @@ main{
 
 }
 
-.content{
+.content{	
     /* flex: 1; */
+    display: flex; /* */
     background-color: #eee;
     text-align: center;
     margin-right: 10px;
