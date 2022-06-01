@@ -2,7 +2,6 @@
 	float: none;
 	position: static;
 }
-	
 body{
     display: flex;
     flex-direction: column;
