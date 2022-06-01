@@ -9,7 +9,7 @@ body{
 
 .header{
     height: 100px;  /* 70px */
-    font-size: 100%;
+    font-size: 36px;
     text-align: center;
     padding:35px 0;
     background-color: #eee;
@@ -22,7 +22,7 @@ li {
 	 
 .glovalNavigation{
     height: 70px;
-	font-size: 100%;
+	font-size: 30px;
     text-align: center;
 	padding:35px 0;
     background-color: #888;
