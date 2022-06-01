@@ -16,7 +16,7 @@ body{
 .header-logo{
     font-size: 25px;　/* "%"は親要素の文字サイズを基準にして決めたいときに使う単位 */
     text-align: center;
-    padding:35px 0px;
+    padding: 25px 0px;
 }
 	
 .header-list li {
@@ -24,7 +24,7 @@ body{
         float: left;
 	font-size: 16px;
 	text-align: center;
-        padding:16px 0px;
+        padding: 16px 0px;
 }
 	 
 .glovalNavigation{
