@@ -9,9 +9,10 @@ body{
 
 .header{
     height: 100px;  /* 70px */
+    font-size: 36px;
     text-align: center;
     background-color: #eee;
-    margin: 10px; /* 10px 0 10px 0; */
+    margin: 10px 10px 10px 10px; /* 10px 0 10px 0; */
 }
 
 .glovalNavigation{
@@ -23,6 +24,7 @@ body{
 
 .header-list li {
    float: left;
+   font-size: 20px;
    list-style: none;
    font-color: #fff;
    margin: 0 auto;
