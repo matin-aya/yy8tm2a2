@@ -16,7 +16,7 @@ body{
 .header-logo{
     font-size: 25px;　/* "%"は親要素の文字サイズを基準にして決めたいときに使う単位 */
     text-align: center;
-    padding: 25px 0px;
+    padding: 35px 40px 20px 20px;
 }
 	
 .header-list li {
