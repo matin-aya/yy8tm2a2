@@ -26,16 +26,16 @@ body{
     margin: 10px 0 10px 0;
     color: #fff;
 	list-style-type: none; /* リスト先頭の黒丸を非表示 */
-	text-align: center; /* */
+	text-align: center; /* .header-list ul {}内ではなくこちらに書いたら中央揃えが適用された。(liの親box?)*/
 	padding-left: 0;
 }
-.header-list ul {
-	text-align: center; /* listの中央揃えでは、ul{}内にtext-align: center;を書く */
-}
+/* .header-list ul { */
+	/* text-align: center;  listの中央揃えでは、ul{}内にtext-align: center;を書く */
+/* } */
 .header-list li {
 	font-size: 18px;
-	display: inline;
-        padding: 35px 40px 20px 20px;
+	display: inline; /* リスト要素を縦から横並びに変換する */
+        /* padding: 35px 40px 20px 20px; 余白: [上][右][下][左] */
 }
 
 main{
