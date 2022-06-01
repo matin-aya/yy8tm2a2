@@ -20,8 +20,8 @@ body{
     padding: 35px 40px 20px 20px;
 }
 
-.header-list ul {
-	list-style: none;
+ul {
+	list-style-type: none;
 	text-align: center; /* listの中央揃えでは、ul{}内にtext-align: center;を書く */
 	padding-left: 0;
 }
