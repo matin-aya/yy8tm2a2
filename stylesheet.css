@@ -23,7 +23,7 @@ body{
 .header-list li {
 	list-style: none;
 	font-size: 18px;
-	display: inline;
+	display: flex; /* inline; */
 	justify-content: center;
 	/* text-align: center; */
         padding: 35px 40px 20px 20px;
