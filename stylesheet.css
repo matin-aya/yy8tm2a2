@@ -19,13 +19,15 @@ body{
     text-align: center;
     padding: 35px 40px 20px 20px;
 }
-	
-.header-list li {
+
+.header-list ul {
 	list-style: none;
+	text-align: center; /* listの中央揃えでは、ul{}内にtext-align: center;を書く */
+	padding-left: 0;
+}
+.header-list li {
 	font-size: 18px;
-	display: flex; /* inline; */
-	justify-content: center;
-	/* text-align: center; */
+	display: inline;
         padding: 35px 40px 20px 20px;
 }
 	 
