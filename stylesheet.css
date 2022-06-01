@@ -62,8 +62,8 @@ main{
 }
 
 .localNavigation{
-   /* display:flex; /* */ */
-   /* flex-flow: column; /* */ */
+   display:flex; /* */
+   flex-flow: column; /* */
     
     text-align: center;
     background-color: #888;
