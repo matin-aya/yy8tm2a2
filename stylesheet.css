@@ -53,7 +53,16 @@ main{
    padding-top: 40%;  /* */
 }
 
-.localNavigation{	
+.localNavigation{
+   /* display:flex; /* */ */
+   /* flex-flow: column; /* */ */
+    
+    item {
+    display: grid;
+    grid-template-rows: 3fr, 1fr, 1fr;
+    gap: 10px;
+    }
+	
     text-align: center;
     background-color: #888;
     color: #fff;
@@ -63,7 +72,9 @@ main{
     margin-bottom: 20px;             /* */
 	
 	 width: 40%;  /* */	
-         padding-top: 40%;  /* */	
+         padding-top: 40%;  /* */
+	
+	
 }
 
 
