@@ -25,7 +25,7 @@ body{
     background-color: #888;
     margin: 10px 0 10px 0;
     color: #fff;
-		list-style-type: none;
+	list-style-type: none; /* リスト先頭の黒丸を非表示 */
 	padding-left: 0;
 }
 .header-list ul {
@@ -34,7 +34,7 @@ body{
 .header-list li {
 	font-size: 18px;
 	display: inline;
-     /* padding: 35px 40px 20px 20px; */
+        padding: 35px 40px 20px 20px;
 }
 
 main{
