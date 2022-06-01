@@ -3,6 +3,13 @@
 	position: static;
 }
 
+/* スマホのような細長い画面では、縦並べ表示にレイアウトを変更？ */
+@media screen and(max-width:767px){
+html{
+      display:block;
+ }
+/* ##############################################＃## */	
+	
 body{
     display: flex;
     flex-direction: column;
