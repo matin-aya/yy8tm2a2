@@ -3,8 +3,16 @@
 	position: static;
 }
 body{
-   display: flex; 
-    flex-direction: column; 
+    display: grid;
+    margin: 0;
+    min-height: 100vh;
+    grid-template-rows: 100px 100px 1fr 100px;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-areas:
+        "title  title  title "
+        "nav    main   ad    "
+        "nav    main   side  "
+        "footer footer footer";
 }
 
 .header{
