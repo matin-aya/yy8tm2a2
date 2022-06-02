@@ -37,17 +37,18 @@ body{
 }
 
 main{
-    display: grid;
-    grid-template-columns: 7fr 4fr;
-    grid-template-rows: 5fr;
-	
 /* min-height: 70vh; */ /* 60vh */　
 /* max-height: 100vh; */ /* 80vh */　
 	 max-width: 1000px; 
  max-height: 800px;  
 
    margin: 10px 0 10px 0;
+}
 
+.contents{
+    display: grid;
+    grid-template-columns: 7fr 4fr;
+    grid-template-rows: 5fr;
 }
 
 .item_1{
