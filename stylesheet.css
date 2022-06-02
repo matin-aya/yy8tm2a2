@@ -67,7 +67,7 @@ main{
 
 .localNavigation{
    display:flex; /* */
-  /*  flex-flow: column; */
+  /*  flex-flow: column; */ /* */
     
     text-align: center;
     background-color: #888;
@@ -94,20 +94,14 @@ padding: 10px;
 .item1{
   background-color: #eee;
 	width: 550px;
-	width: 40%;	
-        padding-top: 40%;
 }
 .item2{
   background-color: #eee;
 	width: 550px;
-	width: 40%;	
-        padding-top: 40%;
 }
 .item3{
   background-color: #eee;
 	width: 550px;
-	width: 40%;	
-        padding-top: 40%;
 }
 /* ##################### */
 
