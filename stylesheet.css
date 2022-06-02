@@ -50,26 +50,26 @@ main{
 
 }
 
-.item1{
+.item_1{
 	background-color: #eee;
     grid-column-start: 1;
     grid-column-end: 7;
 }
-.item2{
+.item_2{
 	background-color: #888;
     grid-column-start: 7;
     grid-column-end: 11;
     grid-row-start: 1;
     grid-row-end: 3;    
 }
-.item3{
+.item_3{
 background-color: #888;
     grid-column-start: 7;
     grid-column-end: 11;
     grid-row-start: 3;
     grid-row-end: 4;    
 }
-.item4{
+.item_4{
 	background-color: #888;
     grid-column-start: 7;
     grid-column-end: 11;
