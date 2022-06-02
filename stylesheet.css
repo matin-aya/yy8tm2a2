@@ -67,7 +67,7 @@ main{
 
 .localNavigation{
    display:flex; /* */
-   flex-flow: column; /* */
+  /*  flex-flow: column; */
     
     text-align: center;
     background-color: #888;
@@ -80,24 +80,25 @@ main{
 	 width: 40%;  /* */	
          padding-top: 40%;  /* */	
 
-flex-direction: column;	
+flex-direction: column;	/* */
 padding: 10px;
 }
 
 /* ##################### */
  item {
-  display: flex;
-  padding: 0px;	 
+ /* display: flex; */
+ /* padding: 0px; */
+  width: 550px;
   }
 
-.item:nth-child(1) {
-    background-color:  #eee;
+.item1{
+  background-color: #eee;
 }
-.item:nth-child(2) {
-    background-color:  #eee;
+.item2{
+  background-color: #eee;
 }
-.item:nth-child(3) {
-    background-color:  #eee;
+.item3{
+  background-color: #eee;
 }
 /* ##################### */
 
