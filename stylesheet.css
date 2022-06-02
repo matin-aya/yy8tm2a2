@@ -4,10 +4,10 @@
 }
 body{
     display: grid;
-    margin: 0;
+    margin: 10px 0 10px 0;
     min-height: 100vh;
-    grid-template-rows: 100px 100px 1fr 100px;
-    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: 70px 60px 350px 1fr 1fr 70px;
+    grid-template-columns 850px 1fr;
     grid-template-areas:
         "title  title  title "
         "nav    main   ad    "
@@ -19,7 +19,6 @@ body{
     height: 100px;  /* 70px */
     text-align: center;
     background-color: #eee;
-    margin: 10px 0 10px 0; /* 10px 0 10px 0; */
 }
 
 .header-logo{
