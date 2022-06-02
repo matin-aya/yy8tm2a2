@@ -22,7 +22,7 @@ body{
 
 .glovalNavigation{
     height: 70px;
-	font-size: 18px; /* 親 */
+	font-size: 10px; /* 親 */
     background-color: #888;
     margin: 10px 0 10px 0;
     color: #fff;
@@ -34,7 +34,7 @@ body{
 	/* text-align: center;  listの中央揃えでは、ul{}内にtext-align: center;を書く */
 /* } */
 .header-list li {
-	font-size: 4vh; /* 18px */
+	font-size: 2vh; /* 18px 4vh */
 	display: inline; /* リスト要素を縦から横並びに変換する */
         padding: 35px 40px; 余白: [上][右][下][左] /* padding: 35px 40px 20px 20px; */
 }
