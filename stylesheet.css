@@ -22,6 +22,7 @@ body{
 
 .glovalNavigation{
     height: 70px;
+	font-size: 18px; /* 親 */
     background-color: #888;
     margin: 10px 0 10px 0;
     color: #fff;
