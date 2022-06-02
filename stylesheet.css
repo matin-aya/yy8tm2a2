@@ -5,6 +5,7 @@
 body{
     display: grid;
     margin: 10px 0 10px 0;
+    gap: 10px;
     min-height: 100vh;
     grid-template-rows: 70px 60px 300px 100px 100px 70px;
     grid-template-columns 700px 400fr;
@@ -17,9 +18,15 @@ body{
         "footer footer";
 }
 
+body > * {
+    margin: 3px;
+    padding: 10px;
+}
+
 .header{
     height: 100px;  /* 70px */
     text-align: center;
+    grid-area: header;
     background-color: #eee;
 }
 
@@ -30,13 +37,14 @@ body{
     padding: 35px 40px 20px 20px;
 }
 
-.glovalNavigation{
+.nav{
     height: 60px; /* 70px */
     background-color: #888;
     margin: 10px 0 10px 0; /* margin: 15px 0 10px 0;  margin: 10px 0 10px 0; */
     color: #fff;
 	list-style-type: none; /* リスト先頭の黒丸を非表示 */
-	text-align: center; /* .header-list ul {}内ではなくこちらに書いたら中央揃えが適用された。(liの親box?)*/
+	text-align: center; /* .header-list ul {}内ではなくこちらに書いたら中央揃えが適用された。(liの親box?) */
+	grid-area: nav;
 	padding-left: 0;
 }
 .header-list li {
@@ -46,41 +54,22 @@ body{
 }
 
 main{
-/* min-height: 70vh; */ /* 60vh */　
-/* max-height: 100vh; */ /* 80vh */　
-  max-width: 1000px; 
-  max-height: 800px; 
-
-	/* height: 800px; */
-	/* width: 1000px; */	
-   margin: 10px 0 10px 0;　
+/*  max-width: 1000px; */　
+/*  max-height: 800px; */
+grid-area: main;
+background-color: #eee;
 }
 
-#container{
-    display: grid;
-    grid-template-rows: 550px 125px 125px; /* grid-template-rows: 550px 125px 125px; */
-    grid-template-columns: 700px 1fr; /* grid-template-columns: 700px 1fr; */
-    /* gap: 10px 10px; */
-}
-
-#itemA{
-    grid-row: 1 / 4;
-    grid-column: 1 / 2;
-    background-color: #eee;
-}
-#itemB {
-    grid-row: 1 / 2;
-    grid-column: 2 / 3;
+.itemA {
+    grid-area: itemA;
     background: #888;
 }
-#itemC {
-    grid-row: 2 / 3;
-    grid-column: 2 / 3;
+.itemB {
+    grid-area: itemB;
     background: #888;
 }
-#itemD {
-    grid-row: 3 / 4;
-    grid-column: 2 / 3;
+.itemC {
+    grid-area: itemC;
     background: #888;
 }
 
