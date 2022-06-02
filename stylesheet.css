@@ -36,7 +36,8 @@ body{
 .header-list li {
 	font-size: 17px; /* 15px 18px 4vh */
 	display: inline; /* リスト要素を縦から横並びに変換する */
-        padding: 35px 0px 10px 0px; 余白: [上][右][下][左] /*  padding: 35px 40px  padding: 35px 40px 20px 20px; */
+	vertical-align: middle; /* */
+        padding: 35px 40px 10px 20px; 余白: [上][右][下][左] /*  padding: 35px 40px  padding: 35px 40px 20px 20px; */
 }
 
 main{
