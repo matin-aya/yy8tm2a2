@@ -7,19 +7,20 @@ body{
     margin: 10px 0 10px 0;
     gap: 10px;
     min-height: 100vh;
-    grid-template-rows: 70px 60px 300px 100px 100px 70px;
+    grid-template-rows: 100px 60px 150px 150px 100px 100px 170px;
     grid-template-columns 700px 400fr;
     grid-template-areas:
         "header header"
-	"nav     nav  "    
-        "main    itemA"
-        "main    itemB"
-        "main    itemC"   
+	"nav    nav   "    
+        "main   itemA "
+        "main   itemA "
+        "main   itemB "
+        "main   itemC "   
         "footer footer";
 }
 
 body > * {
-    margin: 3px;
+    margin: 10px;
     padding: 10px;
 }
 
@@ -76,5 +77,6 @@ background-color: #eee;
 .footer{
     height: 170px; /* 165px 70px 140px */
     text-align: center;
+    grid-area: footer;
     background-color: #eee;
 }
