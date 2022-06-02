@@ -42,15 +42,15 @@ main{
 /*  max-width: 1000px; */　
 /*  max-height: 800px;  */
 
-	 height: 800px; 
-	 width: 1000px; 	
+	/* height: 800px; */
+	/* width: 1000px; */	
    margin: 10px 0 10px 0;　
 }
 
 .contents{
     display: grid;
-    grid-template-rows: 550px 125px 125px;
-    grid-template-columns: 700px 1fr;
+    grid-template-rows: 550px 125px 125px; /* grid-template-rows: 550px 125px 125px; */
+    grid-template-columns: 700px 1fr; /* grid-template-columns: 700px 1fr; */
     gap: 10px 10px;
 }
 
