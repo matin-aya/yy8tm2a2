@@ -13,12 +13,23 @@ body{
     background-color: #eee;
     margin: 10px 0 10px 0; /* */
 }
-.glovalNavigation{
-    height: 70px;
-    text-align: center;
+
+.nav{
+   height: 70px;
     background-color: #888;
+    margin: 10px 0 10px 0; /* margin: 15px 0 10px 0;  margin: 10px 0 10px 0; */
     color: #fff;
+	list-style-type: none; /* リスト先頭の黒丸を非表示 */
+	text-align: center; /* .header-list ul {}内ではなくこちらに書いたら中央揃えが適用された。(liの親box?) */
+	grid-area: nav;
+	padding-left: 0;
 }
+.header-list li {
+	font-size: 16px; /* 17px 15px 18px 4vh */
+	display: inline; /* リスト要素を縦から横並びに変換する */
+        padding: 35px 40px 20px 20px; 余白: [上][右][下][左] /*  padding: 35px 40px  padding: 35px 40px 20px 20px; */
+}
+
 main{
     display: flex;
 	
@@ -53,6 +64,7 @@ main{
     /* height: auto; */ /* height: auto;があると横幅に余白ができてしまう */
 }
 .localNavigation{
+    display: grid;  /* */
     text-align: center;
     background-color: #888;
     color: #fff;
