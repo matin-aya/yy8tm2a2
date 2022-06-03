@@ -9,17 +9,16 @@ body{
 	width: 100%; /* これがないと右に画面広げた時に余白ができる */
 	/* max-width: 1100px; */
 	/* max-height: 830px; */
-    grid-template-rows: 100px 60px 300px 100px 100px 100px;
-    grid-template-columns 700px 400px;
+    grid-template-rows: 100px 60px 100px 100px 100px 100px 100px;
+    grid-template-columns 350px 350px 400px;
     grid-template-areas:
-        "header header header header header header header header header header header"
-	"nav    nav    nav    nav    nav    nav    nav    nav    nav    nav    nav   "    
-        "main   main   main   main   main   main   main   itemA  itemA  itemA  itemA "
-        "main   main   main   main   main   main   main   itemA  itemA  itemA  itemA "
-        "main   main   main   main   main   main   main   itemA  itemA  itemA  itemA "
-        "main   main   main   main   main   main   main   itemB  itemB  itemB  itemB " 
-        "main   main   main   main   main   main   main   itemC  itemC  itemC  itemC "  
-        "footer footer footer footer footer footer footer footer footer footer footer";
+	 "header header header"
+         "nav    nav    nav   "
+	 "main   main   itemA "
+         "main   main   itemA "
+         "main   main   itemB "
+	 "main   main   itemC "
+	 "footer footer footer"; 
 }
 
 body > * {
