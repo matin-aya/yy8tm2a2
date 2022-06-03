@@ -31,12 +31,15 @@ body{
 }
 
 main{
-	/* max-width: 1000px; */
-	/* max-height: 800px; */
+	 max-width: 1000px; 
+	 max-height: 800px; 
 	
     display: grid;
-    grid-template-rows: 2fr 1fr 1fr;
-    grid-template-columns: 6fr 4fr;
+   /* grid-template-rows: 2fr 1fr 1fr; */
+   /* grid-template-columns: 6fr 4fr; */
+	
+      grid-template-rows: 200px 100px 100px;
+      grid-template-columns: 600px 400px;
 	
     margin: 10px 0 10px 0;
 
