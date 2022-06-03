@@ -31,8 +31,8 @@ body{
 }
 
 main{
-	max-width: 1000px;
-	max-height: 800px;
+	/* max-width: 1000px; */
+	/* max-height: 800px; */
 	
     display: grid;
     grid-template-rows: 2fr 1fr 1fr;
