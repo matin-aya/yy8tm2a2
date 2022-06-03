@@ -4,6 +4,8 @@
 }
 body{
     display: grid;
+	column-gap: 10px;
+	row-gap: 10px;
     margin: 0; /* margin: 10px 0 10px 0; */
     padding:0;
     width: 100%; /* これがないと右に画面広げた時に余白ができる */
