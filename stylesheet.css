@@ -21,7 +21,6 @@ body{
     color: #fff;
 	list-style-type: none; /* リスト先頭の黒丸を非表示 */
 	text-align: center; /* .header-list ul {}内ではなくこちらに書いたら中央揃えが適用された。(liの親box?) */
-	grid-area: nav;
 	padding-left: 0;
 }
 .header-list li {
