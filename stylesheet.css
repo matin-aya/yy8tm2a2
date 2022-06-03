@@ -4,27 +4,25 @@
 }
 body{
     display: grid;
-	column-gap: 10px;
-	row-gap: 10px;
     margin: 0; /* margin: 10px 0 10px 0; */
-    padding:0;
     width: 100%; /* これがないと右に画面広げた時に余白ができる */
-    min-height: 100vh;
-	/* max-width: 1100px; */
+    /* min-height: 100vh; */
+	 max-width: 1100px; 
 	/* max-height: 860px; */
-    grid-template-rows: 100px 60px 300px repeat(2, 150px) 100px;
-    grid-template-columns: repeat(2, 350px) 400px;
+    grid-template-rows: 100px 60px repeat(4, 150px) 100px;
+    grid-template-columns: repeat(3, 200px) repeat(2, 200px);
     grid-template-areas:
-	 "header header header"
-         "nav    nav    nav   "
-	 "main   main   itemA "
-         "main   main   itemB "
-         "main   main   itemC "
-	 "footer footer footer"; 
+	 "header header header header header"
+         "nav    nav    nav    nav    nav   "
+	 "main   main   main   itemA  itemA "
+	 "main   main   main   itemA  itemA "
+         "main   main   main   itemB  itemB "
+         "main   main   main   itemC  itemC "
+	 "footer footer footer footer footer"; 
 }
 
 body > * {
-    margin: 20px; /* 10px */
+    margin: 10px;
     padding: 10px;
 }
 
@@ -61,11 +59,13 @@ body > * {
 main{
 /*  max-width: 1000px; */　
 /*  max-height: 800px; */
+margin: 10px 0 10px 0; /* */
 grid-area: main;
 background-color: #eee;
 }
 
 .itemA {
+    margin: 10px 0 10px 0; /* */
     grid-area: itemA;
     background: #888;
 }
