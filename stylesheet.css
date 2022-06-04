@@ -101,4 +101,5 @@ main{
     height: 70px; /* 165px 70px 140px */
     text-align: center;
     background-color: #eee;
+    margin: 10px 0 10px 0; /* */
 }
