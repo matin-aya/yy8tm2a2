@@ -53,8 +53,8 @@ main{
 .itemA {
 	
     padding: 10px; /* 20px */
-   /* grid-row: 1 / 5; */ /* 1 / 7; */
-   /* grid-column: 1 / 1.5; */
+    grid-row: 1 / 5;  /* 1 / 7; */
+    grid-column: 1 / 1.5; 
     background-color: #eee;
     
     text-align: center;
