@@ -35,8 +35,9 @@ body{
 main{
   display: grid; /* main領域をgridレイアウトにする */
   grid-template-rows: 25vw 6.25vw 6.25vw; /* 3行 */
-	grid-template-columns: 62vw 37vw; /* 2列 　62.5vw 37.5vw;　*/
-
+	grid-template-columns: 62.5vw 37.5vw; /* 2列　*/
+wigth: 100%;
+	
   /* 追加.. 余白*/
 /* margin: 2px auto; */
 grid-gap: 10px;
