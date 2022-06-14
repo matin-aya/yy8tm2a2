@@ -32,7 +32,7 @@ body{
 
 main{
 	 max-width: 1000px;
-	 max-height: 800px;
+	 max-height: 600px; /* 800px */
 
     	width: 100vw; /* */
 	 height: 100%;  /* 100vh? x 80vh; (縮小時にheaderがmain領域に乗る) */
@@ -46,7 +46,7 @@ main{
     /* grid-template-rows: 3fr 1fr 1fr; */ /* 3fr 2fr 2fr; 2fr 1fr 1fr; */
    /*  grid-template-columns: 1.5fr 1fr; */ /* 1fr 1fr; */
 	
-   /*　 margin: 10px 0 10px 0; */
+    margin: 10px 0 10px 0; /* ? */
 
 }
 
