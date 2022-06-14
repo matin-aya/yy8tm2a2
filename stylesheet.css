@@ -118,7 +118,6 @@ main{
     text-align: center;
     background-color: #eee;
     margin: 10px 0 10px 0; /* */
-
-  position: absolute;
+	
   width: 100%;
 }
