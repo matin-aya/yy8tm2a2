@@ -39,20 +39,24 @@ main{
 }
 
 .itemA {
-  grid-area: 1 / 2 / span 2 / auto;
-  height: 250px;
+ grid-area: 1 / 1;
 }
 
 .itemB{
-    
+ grid-area: 3 / 1;
 }
 .itemC{
-
+grid-area: 2 / 1;
+  align-self: start;
 }
 .itemD{
-
+grid-area: 1 / 2 / span 2 / auto;
+  height: 250px;
 }
-
+.itemE{
+ grid-area: 3 / 2;
+}	
+	
 .footer{
     height: 70px; /* 165px (70px) 140px */
     wigth: 100%;
