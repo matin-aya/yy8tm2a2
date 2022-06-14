@@ -40,7 +40,7 @@ main{
 /*　box-sizing: border-box;  */ 
 
   /* 追加.. 余白 */
-margin: 2px auto;
+/* margin: 2px auto; */
 grid-gap: 10px;
 }
 
