@@ -10,7 +10,7 @@ body{
 
 .header{
     height: 100px;  /* 70px */
-    wigth: 100%;
+    width: 100%;
     font-size: 30px;  /* 25px */
     text-align: center;
     background-color: #eee;
@@ -36,8 +36,8 @@ main{
   display: grid; /* main領域をgridレイアウトにする */
   grid-template-rows: 25vw 6.25vw 6.25vw; /* 3行 */
 	grid-template-columns: 62.5vw 37.5vw; /* 2列　*/
-/* wigth: 100%; */
-/* box-sizing: border-box; */ 
+width: 100%;
+box-sizing: border-box; /* */ 
 
   /* 追加.. 余白 */
 margin: 2px auto;
