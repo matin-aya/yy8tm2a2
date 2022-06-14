@@ -35,8 +35,8 @@ main{
 	 width: 1000px;
 	 height: 800px;
 
-    	/* width: 100vw;  */
-	/* height: 100%;   100vh? x 80vh; (縮小時にheaderがmain領域に乗る) */
+    	width: 100vw;
+	height: 100vw;  /* 100vh? x 80vh; (縮小時にheaderがmain領域に乗る) */
 	 margin: 2px auto;  /* margin:30px auto; */
 	 grid-gap: 10px;  /* 20px */
     display: grid;
