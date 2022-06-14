@@ -15,8 +15,6 @@ body{
     text-align: center;
     background-color: #eee;
     margin: 10px 0 10px 0;
-    padding-right: 0;
-    padding-left: 0;
 }
 
 .nav{
@@ -27,7 +25,6 @@ body{
 	list-style-type: none; /* リスト先頭の黒丸を非表示 */
 	text-align: center; /* .header-list ul {}内ではなくこちらに書いたら中央揃えが適用された。(liの親box?) */
 	padding-left: 0;
-	padding-right: 0; /* */
 }
 .header-list li {
 	font-size: 16px; /* 17px 15px 18px 4vh */
@@ -74,6 +71,4 @@ margin-right: 10px; /* */
     text-align: center;
     background-color: #eee;
     margin: 10px 0 10px 0;
-    padding-right: 0;
-    padding-left: 0;
 }
