@@ -33,32 +33,26 @@ body{
 }
 
 main{
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-template-rows: auto 1fr auto;
+  display: grid; /* main領域をgridレイアウトにする */
+  grid-template-rows: 25vw 6.25vw 6.25vw; /* 3行 */
+	grid-template-columns: 62.5vw 37.5vw; /* 2列 */
 }
 
 .itemA {
- grid-area: 1 / 1;
+ grid-row: span 3; /* top pictureマス, 3行占有 */
  background-color: #eee;
 }
 
 .itemB{
- grid-area: 3 / 1;
  background-color: #888;
 }
 .itemC{
-grid-area: 2 / 1;
-align-self: start;
 background-color: #888;
 }
 .itemD{
-grid-area: 1 / 2 / span 2 / auto;
-height: 250px;
 background-color: #888;
 }
 .itemE{
- grid-area: 3 / 2;
  background-color: #888;
 }	
 	
