@@ -37,22 +37,26 @@ main{
 	height: 100%;
 
     display: grid;
-	grid-template-rows: 2fr 1fr 1fr;
 	grid-template-columns: 2.5fr 1fr;
 }
 
 .itemA {
-background-color: #eee;	
+background-color: #eee;
+width: 100%;
+grid-colmun: 2.5fr;
 }
 
 .itemB{
 background-color: #888;	
+grid-colmun: 1fr;
 }
 .itemC{
 background-color: #888;	
+	grid-colmun: 1fr;
 }
 .itemD{
 background-color: #888;
+	grid-colmun: 1fr;
 }
 
 .footer{
