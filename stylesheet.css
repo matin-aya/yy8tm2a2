@@ -10,7 +10,7 @@ body{
 
 .header{
     height: 100px;  /* 70px */
-    width: 100%;
+    /*　width: 100%;　*/ 
     font-size: 30px;  /* 25px */
     text-align: center;
     background-color: #eee;
@@ -35,7 +35,7 @@ body{
 main{
   display: grid; /* main領域をgridレイアウトにする */
   grid-template-rows: 25vw 6.25vw 6.25vw; /* 3行 */
-	grid-template-columns: 62.5vw 33.5vw; /* 2列　*/
+	grid-template-columns: 62.5vw 37.5vw; /* 2列　*/
 /*　width: 100%;　*/ 
 /*　box-sizing: border-box;  */ 
 
@@ -72,7 +72,7 @@ margin-right: 10px;
 
 .footer{
     height: 70px; /* 165px (70px) 140px */
-    wigth: 100%;
+    /*　width: 100%;　*/ 
     text-align: center;
     background-color: #eee;
     margin: 10px 0 10px 0;
