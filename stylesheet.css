@@ -3,8 +3,8 @@
 	position: static;
 }
 body{
-    /* display: flex; */
-    /* flex-direction: column; */
+    display: flex;
+    flex-direction: column;
 }
 
 .header{
@@ -35,13 +35,13 @@ main{
 	 max-height: 800px;
 
     	width: 100vw; /* */
-	/* height: 100vh;  x 80vh; (縮小時にheaderがmain領域に乗る) */
+	height: 100vh;  /* x 80vh; (縮小時にheaderがmain領域に乗る) */
 	　margin: 2px auto; /* margin:30px auto; */
 	grid-gap: 10px; /* 20px */
 	
     display: grid;
-    grid-template-rows: calc(40vw - 5px) calc(20vw - 5px) calc(20vw - 5px); /* calc(40vw - 5px) calc(10vw - 5px) calc(10vw - 5px); */  
-    grid-template-columns: calc(60vw - 5px) calc(40vw - 5px); /* calc(60vw - 5px) calc(40vw - 20px); */
+    grid-template-rows: calc(40vh - 5px) calc(20vh - 5px) calc(20vh - 5px); /* calc(40vw - 5px) calc(10vw - 5px) calc(10vw - 5px); */  
+    grid-template-columns: calc(80vw - 5px) calc(50vw - 5px); /* calc(60vw - 5px) calc(40vw - 20px); */
 	
     /* grid-template-rows: 3fr 1fr 1fr; */ /* 3fr 2fr 2fr; 2fr 1fr 1fr; */
    /*  grid-template-columns: 1.5fr 1fr; */ /* 1fr 1fr; */
