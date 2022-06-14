@@ -10,6 +10,7 @@ body{
 
 .header{
     height: 100px;  /* 70px */
+    wigth: 100%;
     font-size: 30px;  /* 25px */
     text-align: center;
     background-color: #eee;
@@ -32,8 +33,8 @@ body{
 }
 
 main{
-	width: 1000px;
-	height: 800px;
+	width: 100%;
+	height: 100%;
 
     display: grid;
 	grid-template-rows: 2fr 1fr 1fr;
@@ -56,6 +57,7 @@ background-color: #888;
 
 .footer{
     height: 70px; /* 165px (70px) 140px */
+    wigth: 100%;
     text-align: center;
     background-color: #eee;
     margin: 10px 0 10px 0; /* */
