@@ -35,7 +35,7 @@ main{
 	 max-height: 800px;
 
     	width: 100vw; /* */
-	/* height: 100vh;   x 80vh; (縮小時にheaderがmain領域に乗る) */
+	 height: 100%;  /* 100vh? x 80vh; (縮小時にheaderがmain領域に乗る) */
 	　margin: 2px auto; /* margin:30px auto; */
 	grid-gap: 10px; /* 20px */
 	
