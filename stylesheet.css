@@ -32,17 +32,12 @@ body{
 }
 
 main{
-	/* width: 1000px; */
-	/* height: 800px; */
+	width: 1000px;
+	height: 800px;
 
-    	width: 100vw;
-	height: 100vw;  /* 100vh? x 80vh; (縮小時にheaderがmain領域に乗る) */
-	 margin: 2px auto;  /* margin:30px auto; */
-	 grid-gap: 10px;  /* 20px */
     display: grid;
-    grid-template-rows: calc(40vw - 5px) calc(20vw - 5px) calc(20vw - 5px);
-    grid-template-columns: calc(60vw - 5px) calc(40vw - 5px);
-
+	grid-template-rows: 2fr 1fr 1fr;
+	grid-template-columns: 2.5fr 1fr;
 }
 
 .itemA {
