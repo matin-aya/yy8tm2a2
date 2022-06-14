@@ -36,8 +36,8 @@ main{
   display: grid; /* main領域をgridレイアウトにする */
   grid-template-rows: 25vw 6.25vw 6.25vw; /* 3行 */
 	grid-template-columns: 62.5vw 37.5vw; /* 2列　*/
-width: 100%;
-box-sizing: border-box; /* */ 
+/*　width: 100%;　*/ 
+/*　box-sizing: border-box;  */ 
 
   /* 追加.. 余白 */
 margin: 2px auto;
@@ -54,20 +54,20 @@ grid-gap: 10px;
 .itemB{
  background-color: #888;
  text-align: center;
-/* margin-right: 10px;  */
-	right: 10px;
+margin-right: 10px;  
+	/* right: 10px; */
 }
 .itemC{
 background-color: #888;
 text-align: center;
-/* margin-right: 10px;  */
-	right: 10px;
+margin-right: 10px;
+	/* right: 10px; */
 }
 .itemD{
 background-color: #888;
 text-align: center;
-/* margin-right: 10px;  */
-	right: 10px;
+margin-right: 10px;
+	/* right: 10px; */
 }
 
 .footer{
