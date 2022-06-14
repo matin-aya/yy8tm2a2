@@ -5,7 +5,7 @@
 body{
     display: flex;
     flex-direction: column;
-   /* margin: 0;  */
+    margin: 0;  
 }
 
 .header{
@@ -14,7 +14,9 @@ body{
     font-size: 30px;  /* 25px */
     text-align: center;
     background-color: #eee;
-    margin: 2px auto; /* */
+    margin: 10px 0 10px 0;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .nav{
@@ -25,6 +27,7 @@ body{
 	list-style-type: none; /* リスト先頭の黒丸を非表示 */
 	text-align: center; /* .header-list ul {}内ではなくこちらに書いたら中央揃えが適用された。(liの親box?) */
 	padding-left: 0;
+	padding-right: 0; /* */
 }
 .header-list li {
 	font-size: 16px; /* 17px 15px 18px 4vh */
@@ -38,7 +41,7 @@ main{
 	grid-template-columns: 62.5vw 37.5vw; /* 2列 */
 
   /* 追加.. 余白*/
-margin: 2px auto;
+/* margin: 2px auto; */
 grid-gap: 10px;
 }
 
@@ -70,5 +73,7 @@ margin-right: 10px; /* */
     wigth: 100%;
     text-align: center;
     background-color: #eee;
-    margin: 2px auto; /* */
+    margin: 10px 0 10px 0;
+    padding-right: 0;
+    padding-left: 0;
 }
