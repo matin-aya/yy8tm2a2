@@ -41,7 +41,7 @@ main{
 	
     display: grid;
     grid-template-rows: calc(40vw - 5px) calc(20vw - 5px) calc(20vw - 5px); /* calc(40vw - 5px) calc(10vw - 5px) calc(10vw - 5px); */  
-    grid-template-columns: calc(60vw - 5px) calc(40vw - 5px); /* calc(60vw - 5px) calc(40vw - 20px); */
+    grid-template-columns: calc(60vw - 2px) calc(40vw - 2px); /* calc(60vw - 5px) calc(40vw - 20px); */
 	
     /* grid-template-rows: 3fr 1fr 1fr; */ /* 3fr 2fr 2fr; 2fr 1fr 1fr; */
    /*  grid-template-columns: 1.5fr 1fr; */ /* 1fr 1fr; */
@@ -114,7 +114,7 @@ main{
 }
 
 .footer{
-    height: 70px; /* 165px 70px 140px */
+    height: 165px; /* 165px (70px) 140px */
     text-align: center;
     background-color: #eee;
     margin: 10px 0 10px 0; /* */
