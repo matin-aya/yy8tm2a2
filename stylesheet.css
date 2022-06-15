@@ -53,21 +53,21 @@ grid-gap: 10px;
 }
 
 .itemB{
-background-color: #888; /* #888 check */
+background-color: #eee; /* #888 check */
  text-align: center;
-margin-right: 10px; /* 30pxだと右の余白が空きすぎる */
+margin-right: 15px; /* 30pxだと右の余白が空きすぎる */
 	/* right: 10px; */
 }
 .itemC{
 background-color: #888;
 text-align: center;
-margin-right: 10px;
+margin-right: 15px;
 	/* right: 10px; */
 }
 .itemD{
 background-color: #888;
 text-align: center;
-margin-right: 10px;
+margin-right: 15px;
 	/* right: 10px; */
 }
 
