@@ -15,13 +15,13 @@ body{
     font-size: 30px;  /* 25px */
     text-align: center;
     background-color: #eee;
-    margin: 10px 0 10px 0;
+    margin: 10px 0 5px 0;
 }
 
 .nav{
    height: 70px;
     background-color: #888;
-    margin: 10px 0 10px 0; /* margin: 15px 0 10px 0;  margin: 10px 0 10px 0; */
+    margin: 5px 0 10px 0; /* margin: 15px 0 10px 0;  margin: 10px 0 10px 0; */
     color: #fff;
 	list-style-type: none; /* リスト先頭の黒丸を非表示 */
 	text-align: center; /* .header-list ul {}内ではなくこちらに書いたら中央揃えが適用された。(liの親box?) */
@@ -72,9 +72,9 @@ margin-right: 10px;
 }
 
 .footer{
-    height: 140px; /* 165px (70px) 140px */
+    height: 200px; /* 165px (70px) 140px */
     /*　width: 100%;　*/ 
     text-align: center;
     background-color: #eee;
-    margin: 10px 0 10px 0;
+    margin: 10px 0 10px 0; /* margin: 10px 0 10px 0; */
 }
