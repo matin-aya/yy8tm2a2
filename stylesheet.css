@@ -6,7 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0; /* default 8px? */
-    margin-right: 0;
+    /* margin-right: 0; */
  }
 
 .header{
@@ -36,7 +36,7 @@ body{
 main{
   display: grid; /* main領域をgridレイアウトにする */
   grid-template-rows: 25vw 6.25vw 6.25vw; /* 3行 */
-	grid-template-columns: 62.5vw 39.5vw; /* 2列　 37.5vw */
+	grid-template-columns: 62.5vw 37.5vw; /* 2列　 37.5vw */
 /*　width: 100%;　*/ 
 /*　box-sizing: border-box;  */ 
 
