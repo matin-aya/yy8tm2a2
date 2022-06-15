@@ -36,13 +36,12 @@ body{
 main{
   display: grid; /* main領域をgridレイアウトにする */
   grid-template-rows: 25vw 6.25vw 6.25vw; /* 3行 */
-	grid-template-columns: 62.5vw 37.5vw; /* 2列 37.5vwは画面拡大時にはみ出る　30.5vw,34.5vwは完全に小さすぎ 36.5vwだと完全に大きすぎ */
+	grid-template-columns: 62.5vw 37.5vw; /* 2列 */
 /*　width: 100%;　*/ 
 /*　box-sizing: border-box;  */ 
 
   /* 追加.. 余白 */
 /* margin: 2px auto; */
-margin: 2px 10px;
 grid-gap: 10px;
 }
 
@@ -50,25 +49,25 @@ grid-gap: 10px;
  grid-row: span 3; /* top pictureマス, 3行占有 */
  background-color: #eee;
  text-align: center;
-/*  margin-left: 10px; */
+ margin-left: 10px; /* */
 }
 
 .itemB{
  background-color: #888;
  text-align: center;
-/* margin-right: 20px;  30pxだと右の余白が空きすぎる */
+margin-right: 20px; /* 30pxだと右の余白が空きすぎる */
 	/* right: 10px; */
 }
 .itemC{
 background-color: #888;
 text-align: center;
-/* margin-right: 20px; */
+margin-right: 20px;
 	/* right: 10px; */
 }
 .itemD{
 background-color: #888;
 text-align: center;
-/* margin-right: 20px; */
+margin-right: 20px;
 	/* right: 10px; */
 }
 
@@ -77,6 +76,6 @@ text-align: center;
     /*　width: 100%;　*/ 
     text-align: center;
     background-color: #eee;
-    margin: 10px 0 10px 0;　/*　margin: 10px 0 10px 0;　*/
+    margin: 10px 0 10px 0;
     margin-bottom: 0; /* なぜかこれがないとmainの右余白がなくなる??, header,footerの右端も空きができる */
 }
