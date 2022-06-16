@@ -53,26 +53,26 @@ grid-gap: 10px;
 }
 
 .itemB{
-background-color: #eee; /* #888 check */
+background-color: #888; /* #888 check */
  text-align: center;
-margin-right: 12px; /* 15px 30pxだと右の余白が空きすぎる */
+margin-right: 11px; /* 15px 30pxだと右の余白が空きすぎる */
 	/* right: 10px; */
 }
 .itemC{
 background-color: #888;
 text-align: center;
-margin-right: 12px;
+margin-right: 11px;
 	/* right: 10px; */
 }
 .itemD{
 background-color: #888;
 text-align: center;
-margin-right: 12px;
+margin-right: 11px;
 	/* right: 10px; */
 }
 
 .footer{
-    height: 220px; /* 200px 165px (70px) 140px */
+    height: 300px; /* 220px 200px 165px (70px) 140px */
     /*　width: 100%;　*/ 
     text-align: center;
     background-color: #eee;
