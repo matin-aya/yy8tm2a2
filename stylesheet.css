@@ -5,6 +5,7 @@
 
 .wrap {
      overflow: hidden; /* bodyの外側をwarpで囲んで、これをつけると右スクロールバーが出なくなって画面にちゃんと収まる */
+     margin: 0;
  }
 
 body{
@@ -61,7 +62,7 @@ grid-gap: 10px;
 }
 
 .itemB{
-background-color: #eee; /* #888 check */
+background-color: #888; /* #888 check */
  text-align: center;
 margin-right: 10px; /* 30pxだと右の余白が空きすぎる */
 	/* right: 10px; */
