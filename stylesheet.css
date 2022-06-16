@@ -3,9 +3,9 @@
 	position: static;
 }
 
-/* .wrap { */
- /* overflow: hidden; bodyの外側をwarpで囲んで、これをつけると右スクロールバーが出なくなって画面にちゃんと収まる */
- /* } */
+.wrap {
+ overflow-x: hidden; /* bodyの外側をwarpで囲んで、これをつけると右スクロールバーが出なくなって画面にちゃんと収まる */
+ }
 
 body{
     display: flex;
