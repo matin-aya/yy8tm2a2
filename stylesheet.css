@@ -45,11 +45,11 @@ main{
 /*　width: 100%;　*/ 
 /*　box-sizing: border-box;  */ 
 
-  max-hight: 800px;
-  max-width: 1000px;
+ /* max-hight: 800px; */ 
+ /* max-width: 1000px; */ 
 
   /* 追加.. 余白 */
- margin: 2px auto; /* ??? */
+/* margin: 2px auto;  */
 grid-gap: 10px;
 }
 
