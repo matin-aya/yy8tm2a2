@@ -2,11 +2,6 @@
 	float: none;
 	position: static;
 }
-
-.wrap {
-    /* overflow: hidden; */ /* bodyの外側をwarpで囲んで、これをつけると右スクロールバーが出なくなって画面にちゃんと収まる */
- }
-
 body{
     display: flex;
     flex-direction: column;
@@ -41,15 +36,12 @@ body{
 main{
   display: grid; /* main領域をgridレイアウトにする */
   grid-template-rows: 25vw 6.25vw 6.25vw; /* 3行 */
-	grid-template-columns: 62.5vw 35.5vw; /* 2列 36.5vw */
+	grid-template-columns: 62.5vw 37.5vw; /* 2列 */
 /*　width: 100%;　*/ 
 /*　box-sizing: border-box;  */ 
 
- max-hight: 800px;
- max-width: 1000px;
-
   /* 追加.. 余白 */
-/* margin: 2px auto;  */
+/* margin: 2px auto; */
 grid-gap: 10px;
 }
 
@@ -61,26 +53,26 @@ grid-gap: 10px;
 }
 
 .itemB{
-background-color: #eee; /* #888 check */
+ background-color: #888;
  text-align: center;
-margin-right: 10px; /* 30pxだと右の余白が空きすぎる */
+margin-right: 20px; /* 30pxだと右の余白が空きすぎる */
 	/* right: 10px; */
 }
 .itemC{
 background-color: #888;
 text-align: center;
-margin-right: 10px;
+margin-right: 20px;
 	/* right: 10px; */
 }
 .itemD{
 background-color: #888;
 text-align: center;
-margin-right: 10px;
+margin-right: 20px;
 	/* right: 10px; */
 }
 
 .footer{
-    height: 300px; /* 220px 200px 165px (70px) 140px */
+    height: 300px; /* 220px 220px 165px (70px) 140px */
     /*　width: 100%;　*/ 
     text-align: center;
     background-color: #eee;
