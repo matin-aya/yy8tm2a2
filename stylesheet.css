@@ -4,7 +4,7 @@
 }
 
 .wrap {
-    overflow: hidden;  /* bodyの外側をwarpで囲んで、これをつけると右スクロールバーが出なくなって画面にちゃんと収まる */
+  overflow: hidden; /* bodyの外側をwarpで囲んで、これをつけると右スクロールバーが出なくなって画面にちゃんと収まる */
  }
 
 body{
