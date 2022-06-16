@@ -49,7 +49,7 @@ grid-gap: 10px;
  grid-row: span 3; /* top pictureマス, 3行占有 */
  background-color: #eee;
  text-align: center;
- margin-left: 5px; /* 10px 2px */
+ margin-left: 12px; /* 10px 2px 5px */
 }
 
 .itemB{
@@ -72,7 +72,7 @@ margin-right: 12px;
 }
 
 .footer{
-    height: 200px; /* 165px (70px) 140px */
+    height: 220px; /* 200px 165px (70px) 140px */
     /*　width: 100%;　*/ 
     text-align: center;
     background-color: #eee;
