@@ -2,6 +2,11 @@
 	float: none;
 	position: static;
 }
+
+.wrap {
+     overflow: hidden;
+ }
+
 body{
     display: flex;
     flex-direction: column;
