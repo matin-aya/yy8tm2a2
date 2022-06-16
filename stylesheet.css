@@ -8,7 +8,8 @@ body{
     flex-direction: column;
     margin: 0; /* default 8px? */
     /* margin-right: 0; */
-    overflow: hidden; /* bodyの外側をwarpで囲んで、これをつけると右スクロールバーが出なくなって画面にちゃんと収まる */
+    overflow-x: hidden; /* bodyの外側をwarpで囲んで、これをつけると右スクロールバーが出なくなって画面にちゃんと収まる */
+    overflow-y: scroll;
  }
 
 .header{
@@ -60,19 +61,19 @@ grid-gap: 10px;
 .itemB{
 background-color: #888; /* #888 check */
  text-align: center;
-margin-right: 10px; /* 30pxだと右の余白が空きすぎる */
+margin-right: 5px; /* 10px 30pxだと右の余白が空きすぎる */
 	/* right: 10px; */
 }
 .itemC{
 background-color: #888;
 text-align: center;
-margin-right: 10px;
+margin-right: 5px;
 	/* right: 10px; */
 }
 .itemD{
 background-color: #888;
 text-align: center;
-margin-right: 10px;
+margin-right: 5px;
 	/* right: 10px; */
 }
 
