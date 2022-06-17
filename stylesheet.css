@@ -91,6 +91,7 @@ margin-right: 5px;
     margin-bottom: 0; /* なぜかこれがないとmainの右余白がなくなる??, header,footerの右端も空きができる */
 }
 .Introduction{
+display: block;
 margin: 0 0 15px auto; /* 余白: [上][右][下][左] */
 }
 .Introduction intro_title p{
@@ -98,7 +99,8 @@ margin: 0 0 15px auto; /* 余白: [上][右][下][左] */
     font-size: 10px;
 }
 .Introduction intro_sentence p{
-    text-align: left;
+    text-align: justify;
+    text-justify: inter-ideograph;
     font-size: 8px;
     line-height: normal;
 }
