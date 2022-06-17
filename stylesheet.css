@@ -77,9 +77,11 @@ margin-right: 5px;
 }
 .itemC diary_title p{
 display: flex;
-flex-flow: column;
+flex-direction: column;
 justify-content: flex-start; /* 要素(文)を左寄せで配置 */
 font-size: 14px;
+flex-wrap: nowrap; /* 折り返しせず、画面に合わせて伸縮させる */
+Word-break: break-all;
 }
 .itemC diary_link a{
   color: black;
@@ -104,20 +106,16 @@ margin-right: 5px;
     background-color: #eee;
     margin: 10px 0 10px 0;
     margin-bottom: 0; /* なぜかこれがないとmainの右余白がなくなる??, header,footerの右端も空きができる */
-}
-.Introduction{
 display: flex;
-flex-flow: column; /* 要素(文)を縦に配置 */
+flex-direction: column; /* 要素(文)を縦に配置  flex-flow: column; */
 justify-content: flex-start; /* 要素(文)を左寄せで配置 */
 margin-left: auto;
 margin-right: 30px;
 }
-.Introduction intro_title p{
-    /* text-align: left; */
+
+.footer intro_title p{
     font-size: 10px;
 }
-.Introduction intro_sentence p{
-   /* text-align: left; */
+.footer intro_sentence p{
     font-size: 8px;
-    /* line-height: normal; */
 }
