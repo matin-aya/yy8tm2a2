@@ -71,8 +71,9 @@ margin-right: 5px; /* 10px 30pxだと右の余白が空きすぎる */
 }
 .itemC{
 background-color: #888;
-text-align: center;
+/* text-align: center; */	
 margin-right: 5px;
+display: flex;
 	/* right: 10px; */
 }
 .itemD{
