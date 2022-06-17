@@ -85,7 +85,8 @@ margin-right: 5px;
 .footer{
     height: 300px; /* 220px 200px 165px (70px) 140px */
     /*　width: 100%;　*/ 
-    text-align: center;
+    text-align: right; /* 220617 center */
+    font-size: 12px; /* 220617 */
     background-color: #eee;
     margin: 10px 0 10px 0;
     margin-bottom: 0; /* なぜかこれがないとmainの右余白がなくなる??, header,footerの右端も空きができる */
