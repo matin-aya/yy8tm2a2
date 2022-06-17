@@ -92,7 +92,7 @@ margin-right: 5px;
 }
 .Introduction{
 display: block;
-margin: 0 0 15px auto; /* 余白: [上][右][下][左] */
+margin-right: 0; /* 余白: [上][右][下][左] */
 }
 .Introduction intro_title p{
     text-align: left;
