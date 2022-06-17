@@ -40,7 +40,7 @@ body{
   color: white; /* リンクの色を指定 */
   text-decoration: none; /* リンクの下線を非表示 */
 }
-.header a{
+.title a{
   color: black; /* リンクの色を指定 */
   text-decoration: none; /* リンクの下線を非表示 */
 }
