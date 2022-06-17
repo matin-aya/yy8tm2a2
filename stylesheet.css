@@ -64,7 +64,7 @@ grid-gap: 10px;
 }
 
 .itemB{
-background-color: #eee; /* #888 check */
+background-color: #888; /* #888 check */
  text-align: center;
 margin-right: 5px; /* 10px 30pxだと右の余白が空きすぎる */
 	/* right: 10px; */
@@ -90,14 +90,14 @@ margin-right: 5px;
     margin: 10px 0 10px 0;
     margin-bottom: 0; /* なぜかこれがないとmainの右余白がなくなる??, header,footerの右端も空きができる */
 }
-.footer Introduction{
+.Introduction{
 margin: 0 0 15px auto; /* 余白: [上][右][下][左] */
 }
-.footer Introduction intro_title p{
+.Introduction intro_title p{
     text-align: left;
     font-size: 10px;
 }
-.footer Introduction intro_sentence p{
+.Introduction intro_sentence p{
     text-align: left;
     font-size: 8px;
     line-height: normal;
