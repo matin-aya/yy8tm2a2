@@ -33,7 +33,7 @@ body{
 .header-list li {
 	font-size: 16px; /* 17px 15px 18px 4vh */
 	display: inline; /* リスト要素を縦から横並びに変換する */
-        padding: 35px 40px 20px 20px; 余白: [上][右][下][左] /*  padding: 35px 40px  padding: 35px 40px 20px 20px; */
+        padding: 35px 40px 20px 20px; /* 余白: [上][右][下][左] padding: 35px 40px  padding: 35px 40px 20px 20px; */
 }
 
 .header-list a{
@@ -64,7 +64,7 @@ grid-gap: 10px;
 }
 
 .itemB{
-background-color: #888; /* #888 check */
+background-color: #eee; /* #888 check */
  text-align: center;
 margin-right: 5px; /* 10px 30pxだと右の余白が空きすぎる */
 	/* right: 10px; */
@@ -91,14 +91,14 @@ margin-right: 5px;
     margin-bottom: 0; /* なぜかこれがないとmainの右余白がなくなる??, header,footerの右端も空きができる */
 }
 .Introduction{
-margin: 0 0 15 auto;
+margin: 0 0 15 auto; /* 余白: [上][右][下][左] */
 }
 .intro_title p{
     text-align: left;
-    font-size: 14px;
+    font-size: 10px;
 }
 .intro_sentence p{
     text-align: left;
-    font-size: 12px;
+    font-size: 8px;
     line-height: normal;
 }
