@@ -36,10 +36,12 @@ body{
         padding: 35px 40px 20px 20px; 余白: [上][右][下][左] /*  padding: 35px 40px  padding: 35px 40px 20px 20px; */
 }
 
-.title a {
+a{
   color: white; /* リンクの色を指定 */
   text-decoration: none; /* リンクの下線を非表示 */
 }
+
+p.title { color: black; }
 
 
 main{
