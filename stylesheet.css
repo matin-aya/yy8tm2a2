@@ -95,7 +95,7 @@ Word-break: break-all;
 /* #################### */
 
 .itemD{
-background-color: #888;
+background-color: #eee; /* #888 */ 
 text-align: center;
 margin-right: 5px;
 	/* right: 10px; */
@@ -118,8 +118,9 @@ margin: 0 0 0 auto;
 }
 
 .intro_box h3{
-    font-size: 14px;
+    /* font-size: 14px; */
 }
 .intro_box p{
-    font-size: 12px;
+    /* font-size: 12px; */
+    line-height: 1.5;
 }
