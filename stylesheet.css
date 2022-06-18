@@ -113,13 +113,13 @@ margin-right: 5px;
 .intro_box{
 display: flex;
 flex-direction: column; /* 要素(文)を縦に配置  flex-flow: column; */
-justify-content: flex-start; /* 要素(文)を左寄せで配置 */
-margin-right: 0;
+/* justify-content: flex-start; 要素(文)を左寄せで配置 */
+margin: 0 0 0 auto;
 }
 
 .intro_box h3{
-    font-size: 10px;
+    font-size: 14px;
 }
 .intro_box p{
-    font-size: 8px;
+    font-size: 12px;
 }
