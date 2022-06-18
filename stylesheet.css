@@ -111,16 +111,17 @@ margin-right: 5px;
 }
 
 .intro_box{
- margin-right: 20px;
+ margin-top: 20px;
+ margin-right: 35px;
  margin-left: auto;
  width: 30%;
- display: block;
+ display: block; /* flexではダメだった */
 }
 
 .intro_box h3{
-    font-size: 18px;
+    font-size: 14px;
 }
 .intro_box p{
-    font-size: 14px;
-    line-height: 1.5;
+    font-size: 12px;
+    line-height: 0.8;
 }
