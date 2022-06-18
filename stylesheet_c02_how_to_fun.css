@@ -50,6 +50,15 @@ main{
 
 }
 
+.fun-list li {
+line-height: 1.5;
+list-style-type: decimal;
+}
+.aruaru-list li {
+line-height: 1.5;
+list-style-type: decimal;
+}
+
 
 .footer{
     height: 300px; /* 220px 200px 165px (70px) 140px */
