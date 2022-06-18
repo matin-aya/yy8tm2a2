@@ -79,37 +79,27 @@ margin-right: 5px; /* 10px 30pxだと右の余白が空きすぎる */
 .itemC{
 background-color: #eee;	
 /* margin-right: 5px; */
-display: block; /* */
-Word-break: keep-all; /* break-all; */
-/* flex-wrap: nowrap;  折り返しせず、画面に合わせて伸縮させる flexに対して有効 */
 }
-.itemC h2{
- font-size: 18px;
- margin-top: 4px;
- margin-right: auto;
- margin-left: 10px;
- width: 30%;
- line-height: 0.1;
+.itemC h2 {
+  /* margin: 0; */
+  padding: 0;
+  font-size: 18px;
+  margin-top: 4px;
+  margin-right: auto;
+  margin-left: 10px;
+  /* width: 30%; */
+  line-height: 0.1;
 }
-
-.itemC diary-list li{
-　list-style-type: none;
+.itemC p {
   font-size: 16px; 
   line-height: 0.5;
-  white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
+  margin: 0; 
+  padding: 0;
 }
-
-.itemC diary-list li diary_link_1 a{
+.itemC a{
   color: black;
-  margin-right: auto;
-  margin-left: 2px;
-}
-.itemC diary-list li diary_link_2 a{
-  color: black;
-  margin-right: 2px;
-  margin-left: auto;
+  text-decoration: none;
 }
 
 /* #################### */
