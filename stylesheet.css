@@ -92,22 +92,22 @@ Word-break: keep-all; /* break-all; */
  line-height: 0.1;
 }
 
-.itemC diary-list li a{
+.itemC diary-list li{
 　list-style-type: none;
-  color: black;
   font-size: 16px; 
   line-height: 0.5;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  /* margin-right: auto; */
-  /* margin-left: 2px; */
 }
+
 .itemC diary-list li diary_link_1 a{
+  color: black;
   margin-right: auto;
   margin-left: 2px;
 }
 .itemC diary-list li diary_link_2 a{
+  color: black;
   margin-right: 2px;
   margin-left: auto;
 }
