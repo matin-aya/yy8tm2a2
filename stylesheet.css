@@ -102,10 +102,13 @@ margin-right: 5px;
 .footer{
     height: 300px; /* 220px 200px 165px (70px) 140px */
     /*　width: 100%;　*/ 
-    text-align: center;
+   /*　 text-align: center; */ 
     background-color: #eee;
     margin: 10px 0 10px 0;
     margin-bottom: 0; /* なぜかこれがないとmainの右余白がなくなる??, header,footerの右端も空きができる */
+}
+
+.footer intro_box {
 display: flex;
 flex-direction: column; /* 要素(文)を縦に配置  flex-flow: column; */
 justify-content: flex-start; /* 要素(文)を左寄せで配置 */
