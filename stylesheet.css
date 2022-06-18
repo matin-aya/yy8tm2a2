@@ -95,7 +95,7 @@ Word-break: break-all;
 /* #################### */
 
 .itemD{
-background-color: #eee; /* #888 */ 
+background-color: #888; /* #eee #888 */ 
 text-align: center;
 margin-right: 5px;
 	/* right: 10px; */
@@ -112,15 +112,15 @@ margin-right: 5px;
 
 .intro_box{
 display: flex;
-flex-direction: column; /* 要素(文)を縦に配置  flex-flow: column; */
+/* flex-direction: column; 要素(文)を縦に配置  flex-flow: column; */
 /* justify-content: flex-start; 要素(文)を左寄せで配置 */
 margin: 0 0 0 auto;
 }
 
 .intro_box h3{
-    /* font-size: 14px; */
+    font-size: 18px;
 }
 .intro_box p{
-    /* font-size: 12px; */
+    font-size: 14px;
     line-height: 1.5;
 }
