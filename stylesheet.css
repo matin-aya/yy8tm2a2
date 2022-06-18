@@ -80,6 +80,8 @@ margin-right: 5px; /* 10px 30pxだと右の余白が空きすぎる */
 background-color: #eee;	
 /* margin-right: 5px; */
 display: block; /* */
+Word-break: keep-all; /* break-all; */
+/* flex-wrap: nowrap;  折り返しせず、画面に合わせて伸縮させる flexに対して有効 */
 }
 .itemC h2{
  font-size: 18px;
@@ -87,8 +89,6 @@ display: block; /* */
  margin-right: auto;
  margin-left: 10px;
  width: 30%;
- flex-wrap: nowrap; /* 折り返しせず、画面に合わせて伸縮させる */
- Word-break: break-all;
  line-height: 0.1;
 }
 
@@ -120,7 +120,7 @@ margin-right: 5px;
 
 .intro_box{
  margin: 100px 50px 10px auto;
- /* width: 30%; */
+ width: 30%; /* ? */
  display: block; /* flexではダメだった */
 }
 
@@ -129,5 +129,5 @@ margin-right: 5px;
 }
 .intro_box p{
     font-size: 12px;
-    line-height: 0.7;
+    line-height: 1; /* 0.7 */
 }
