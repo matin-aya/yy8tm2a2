@@ -82,7 +82,7 @@ background-color: #eee;
 }
 .itemC h2 {
   /* margin: 0; */
-  padding: 2px;
+  padding: 35px 40px 20px 20px;
   font-size: 18px;
   margin-top: 10px;
   margin-right: auto;
@@ -92,12 +92,11 @@ background-color: #eee;
 }
 .itemC p {
   font-size: 16px; 
-  line-height: 0.5;
+  line-height: 0.8;
   overflow: hidden;
   margin-right: auto;
   margin-left: 10px; 
   width: 30%;
-  padding: 2px;
 }
 .itemC a{
   color: black;
