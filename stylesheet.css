@@ -75,22 +75,27 @@ margin-right: 5px; /* 10px 30pxだと右の余白が空きすぎる */
 .itemC{
 background-color: #eee;	
 margin-right: 5px;
+display: block; /* */
 }
-.main itemC diary_title p{
-display: flex;
-flex-direction: column;
-justify-content: flex-start; /* 要素(文)を左寄せで配置 */
-font-size: 14px;
-flex-wrap: nowrap; /* 折り返しせず、画面に合わせて伸縮させる */
+.itemC h2{
+ font-size: 18px;
+ margin-top: 8px;
+ margin-right: auto;
+ margin-left: 5px;
+ width: 30%;
+/* flex-wrap: nowrap; 折り返しせず、画面に合わせて伸縮させる */
 Word-break: break-all;
 }
-.main itemC diary_link a{
+.diary_link a{
   color: black;
+  font-size: 16px; 
 }
-.main itemC diary_archive_link a{
+.diary_archive_link a{
   color: black;
   text-decoration: none;
-  margin-left: 20px;
+  font-size: 14px;
+  margin-right: 5px;
+  margin-left: auto;
 }
 /* #################### */
 
