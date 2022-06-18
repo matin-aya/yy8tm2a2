@@ -49,17 +49,17 @@ justify-content: flex-start; /* 要素(文)を左寄せで配置 */
 
 .h1 {
 font-size: 24px;
-line-height: 2;
+line-height: 1; /* 2 */
 }
 
 .h2 {
 font-size: 20px;
-line-height: 2;
+line-height: 1;
 }
 
 .diary_sent p{
 font-size: 14px;
-line-height: 1.5;
+line-height: 0.8; /* 1.5 */
 }
 
 .footer{
