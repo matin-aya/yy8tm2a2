@@ -100,7 +100,7 @@ margin-right: 5px;
   margin-right: auto;
   margin-left: 10px;
   white-space: nowrap; /* 文字列を折り返さない */
-  height: 30%;
+ /* height: 30%; */
   width: 30%;
 }
 .itemC h3 {
@@ -112,7 +112,7 @@ margin-right: 5px;
  /* margin-bottom: 20px;  下に潜るのを上げたい */
   bottom: 10%;
   white-space: nowrap; /* 文字列を折り返さない */
- /*  height: 20%; 20% */
+ /*  height: 80%; 20% */
   width: 20%;
 }
 .itemC a{
