@@ -82,21 +82,22 @@ background-color: #eee;
 }
 .itemC h2 {
   /* margin: 0; */
-  padding: 35px 40px 20px 20px;
-  font-size: 18px;
+  font-weight: bold;
+  padding: 20px 40px 20px 20px;
+  font-size: 20px;
   margin-top: 10px;
   margin-right: auto;
   margin-left: 10px;
   width: 30%;
-  line-height: 0.5;
+  line-height: 0.3;
 }
 .itemC p {
   font-size: 16px; 
   line-height: 0.8;
   overflow: hidden;
   margin-right: auto;
-  margin-left: 10px; 
-  width: 30%;
+  margin-left: 10px;
+  width: 80%;
 }
 .itemC a{
   color: black;
