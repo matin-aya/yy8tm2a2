@@ -80,24 +80,25 @@ margin-right: 5px; /* 10px 30pxだと右の余白が空きすぎる */
 background-color: #eee;	
 /* margin-right: 5px; */
 }
-.itemC h2 {
+.itemC h1 {
   /* margin: 0; */
-  font-weight: bold;
-  padding: 20px 40px 20px 20px;
-  font-size: 20px;
+  padding: 5px 40px 20px 20px;
+  font-size: 15px;
   margin-top: 10px;
   margin-right: auto;
   margin-left: 10px;
+  height: 30%;
   width: 30%;
   line-height: 0.3;
 }
-.itemC p {
-  font-size: 16px; 
+.itemC h2 {
+  font-size: 12px; 
   line-height: 0.8;
   overflow: hidden;
   margin-right: auto;
   margin-left: 10px;
   white-space: nowrap; /* 文字列を折り返さない */
+  height: 80%;
   width: 80%;
 }
 .itemC a{
