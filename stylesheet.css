@@ -79,7 +79,8 @@ margin-right: 5px; /* 10px 30pxだと右の余白が空きすぎる */
 .itemC{
 background-color: #eee;	
 overflow: visible; /* hidden; */
-white-space: nowrap; /* 文字列を折り返さない */
+/* white-space: nowrap;  文字列を折り返さない */
+overflow-wrap: break-all; /* 文字列を折り返す */
 margin-right: 5px;
 }
 .itemC h1 {
@@ -106,6 +107,7 @@ margin-right: 5px;
  /* line-height: 0.1; */
   margin-right: 10px;
   margin-left: auto;
+  margin-bottom: 10px; /* ? */
  /* height: 20%; */
  /* width: 20%; */
 }
