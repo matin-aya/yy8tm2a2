@@ -97,9 +97,18 @@ Word-break: keep-all; /* break-all; */
   color: black;
   font-size: 16px; 
   line-height: 0.5;
+  /* margin-right: auto; */
+  /* margin-left: 2px; */
+}
+.diary-list li diary_link_1 a{
   margin-right: auto;
   margin-left: 2px;
 }
+.diary-list li diary_link_2 a{
+  margin-right: 2px;
+  margin-left: auto;
+}
+
 /* #################### */
 
 .itemD{
