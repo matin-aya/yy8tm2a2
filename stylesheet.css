@@ -75,7 +75,7 @@ margin-right: 5px; /* 10px 30pxだと右の余白が空きすぎる */
 background-color: #888;	
 margin-right: 5px;
 }
-.itemC diary_title p{
+.main itemC diary_title p{
 display: flex;
 flex-direction: column;
 justify-content: flex-start; /* 要素(文)を左寄せで配置 */
@@ -83,12 +83,13 @@ font-size: 14px;
 flex-wrap: nowrap; /* 折り返しせず、画面に合わせて伸縮させる */
 Word-break: break-all;
 }
-.itemC diary_link a{
+.main itemC diary_link a{
   color: black;
 }
-.itemC diary_archive_link a{
+.main itemC diary_archive_link a{
   color: black;
   text-decoration: none;
+  margin-left: 20px;
 }
 /* #################### */
 
