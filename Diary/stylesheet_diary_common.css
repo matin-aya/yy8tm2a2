@@ -43,6 +43,8 @@ body{
 
 main{
 display: flex;
+flex-direction: column; /* 要素(文)を縦に配置 */
+justify-content: flex-start; /* 要素(文)を左寄せで配置 */
 }
 
 .h1 {
