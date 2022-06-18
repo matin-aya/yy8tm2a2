@@ -96,6 +96,7 @@ margin-right: 5px;
 .itemC h2 {
   font-size: 12px; 
  /* line-height: 0.1; */
+  margin-top: 10px;
   margin-right: auto;
   margin-left: 10px;
   white-space: nowrap; /* 文字列を折り返さない */
