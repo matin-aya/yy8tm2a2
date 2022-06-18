@@ -48,17 +48,17 @@ justify-content: flex-start; /* 要素(文)を左寄せで配置 */
 margin-left: 10px;
 }
 
-.main h1 {
+.h1 {
 font-size: 18px;
 line-height: 1; /* 2 */
 }
 
-.main h2 {
+.h2 {
 font-size: 14px;
 line-height: 0.8;
 }
 
-.main diary_sent p{
+.diary_sent p{
 font-size: 12px;
 line-height: 0.5; /* 0.8 1.5 */
 }
