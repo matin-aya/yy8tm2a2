@@ -111,7 +111,7 @@ margin-right: 5px;
 .footer intro_box {
 display: flex;
 flex-direction: column; /* 要素(文)を縦に配置  flex-flow: column; */
-justify-content: flex-start; /* 要素(文)を左寄せで配置 */
+justify-content: flex-end; /* 要素(文)を左寄せで配置 flex-start */
 margin-left: auto;
 margin-right: 30px;
 }
