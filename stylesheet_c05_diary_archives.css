@@ -45,13 +45,10 @@ main{
 
 }
 
-
-.diary-list diary_item a {	 
+.diary-list li a {	 
  color: black;
  text-decoration: none; 	 
 }  
-
-
 
 .footer{
     height: 300px; /* 220px 200px 165px (70px) 140px */
