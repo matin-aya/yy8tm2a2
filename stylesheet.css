@@ -99,6 +99,7 @@ margin-right: 5px;
   bottom: 20%;
   margin-right: auto;
   margin-left: 10px;
+  padding 0;
   white-space: nowrap; /* 文字列を折り返さない */
  /* height: 30%; */
   width: 30%;
