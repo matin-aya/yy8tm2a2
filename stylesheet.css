@@ -85,26 +85,29 @@ Word-break: keep-all; /* break-all; */
 }
 .itemC h2{
  font-size: 18px;
- margin-top: 2px;
+ margin-top: 4px;
  margin-right: auto;
  margin-left: 10px;
  width: 30%;
  line-height: 0.1;
 }
 
-.diary-list li a{
+.itemC diary-list li a{
 　list-style-type: none;
   color: black;
   font-size: 16px; 
   line-height: 0.5;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   /* margin-right: auto; */
   /* margin-left: 2px; */
 }
-.diary-list li diary_link_1 a{
+.itemC diary-list li diary_link_1 a{
   margin-right: auto;
   margin-left: 2px;
 }
-.diary-list li diary_link_2 a{
+.itemC diary-list li diary_link_2 a{
   margin-right: 2px;
   margin-left: auto;
 }
