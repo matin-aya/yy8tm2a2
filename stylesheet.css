@@ -74,21 +74,23 @@ margin-right: 5px; /* 10px 30pxだと右の余白が空きすぎる */
 /* #################### */
 .itemC{
 background-color: #eee;	
-margin-right: 5px;
+/* margin-right: 5px; */
 display: block; /* */
 }
 .itemC h2{
  font-size: 18px;
- margin-top: 8px;
+ margin-top: 2px;
  margin-right: auto;
- margin-left: 5px;
+ margin-left: 10px;
  width: 30%;
-/* flex-wrap: nowrap; 折り返しせず、画面に合わせて伸縮させる */
-Word-break: break-all;
+ flex-wrap: nowrap; /* 折り返しせず、画面に合わせて伸縮させる */
+ Word-break: break-all;
+ line-height: 0.5;
 }
 .diary_link a{
   color: black;
   font-size: 16px; 
+  line-height: 0.5;
 }
 .diary_archive_link a{
   color: black;
@@ -96,6 +98,7 @@ Word-break: break-all;
   font-size: 14px;
   margin-right: 5px;
   margin-left: auto;
+  line-height: 0.5;
 }
 /* #################### */
 
@@ -116,17 +119,17 @@ margin-right: 5px;
 }
 
 .intro_box{
- margin-top: 20px;
- margin-right: 35px;
+ margin-top: 30px;
+ margin-right: 50px;
  margin-left: auto;
  width: 30%;
  display: block; /* flexではダメだった */
 }
 
 .intro_box h3{
-    font-size: 14px;
+    font-size: 12px;
 }
 .intro_box p{
     font-size: 12px;
-    line-height: 0.8;
+    line-height: 0.5;
 }
