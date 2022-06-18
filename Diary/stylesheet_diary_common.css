@@ -42,16 +42,23 @@ body{
 }
 
 main{
-
+display: flex;
 }
 
+.h1 {
+font-size: 24px;
+line-height: 2;
+}
 
-.diary-list diary_item a {	 
- color: black;
- text-decoration: none; 	 
-}  
+.h2 {
+font-size: 20px;
+line-height: 2;
+}
 
-
+.diary_sent p{
+font-size: 14px;
+line-height: 1.5;
+}
 
 .footer{
     height: 300px; /* 220px 200px 165px (70px) 140px */
