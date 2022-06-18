@@ -111,8 +111,9 @@ margin-right: 5px;
   font-size: 10px; 
  /* line-height: 0.1; */
   padding-right: 10px;
-  padding-left: auto;
-  padding-bottom: 5px; /* bottom->10 ? */
+  text-align: right;
+ /* padding-left: auto; */
+  padding-bottom: 10px; /* bottom->10 ? */
  /* height: 20%; */
  /* width: 20%; */
 }
