@@ -107,7 +107,7 @@ margin-right: 5px;
   font-size: 10px; 
   line-height: 0.1;
   overflow: visible; /* hidden; */
-  margin-right: 10px;
+  margin-right: 0px;
   margin-left: auto;
   white-space: nowrap; /* 文字列を折り返さない */
   height: 20%;
