@@ -81,9 +81,11 @@ background-color: #eee;
 overflow: visible; /* hidden; */
 /* white-space: nowrap;  文字列を折り返さない */
 /* overflow-wrap: break-all;  文字列を折り返す */
+/* ----- */
 white-space: nowrap;
 overflow: hidden;
 text-overflow: ellipsis;
+/* ----- */
 margin-right: 5px;
 }
 .itemC h1 {
@@ -110,7 +112,7 @@ margin-right: 5px;
  /* line-height: 0.1; */
   margin-right: 10px;
   margin-left: auto;
-  margin-top: 8px; /* ? */
+  margin-bottom: 5px; /* bottom->10 ? */
  /* height: 20%; */
  /* width: 20%; */
 }
