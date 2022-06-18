@@ -85,7 +85,7 @@ display: block; /* */
  width: 30%;
  flex-wrap: nowrap; /* 折り返しせず、画面に合わせて伸縮させる */
  Word-break: break-all;
- line-height: 0.5;
+ line-height: 0.1;
 }
 
 .diary-list li a{
