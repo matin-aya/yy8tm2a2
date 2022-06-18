@@ -43,7 +43,8 @@ body{
 
 .header-list li a {
   color: white; /* リンクの色を指定 */
-  text-decoration: none; /* リンクの下線を非表示 */
+  /* text-decoration: none; リンクの下線を非表示 */
+  text-decoration: none!important; /* */
 }
 
 main{
