@@ -54,18 +54,18 @@ margin-left: 10px;
 }
 
 .h1 {
-font-size: 18px;
-line-height: 1; /* 2 */
+/* font-size: 18px; */
+line-height: 1.5; /* 1 2  */
 }
 
 .h2 {
-font-size: 14px;
-line-height: 0.8;
+/* font-size: 14px; */
+line-height: 1.5; /* 0.8 */
 }
 
 .diary_sent p{
-font-size: 12px;
-line-height: 0.5; /* 0.8 1.5 */
+/* font-size: 12px; */
+line-height: 1.5; /* 0.8 1.5 */
 }
 
 .footer{
