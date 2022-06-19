@@ -171,9 +171,9 @@ grid-gap: 0.1px;
 }
 
 .intro_box h3{
-    font-size: 1.1vw; /* 12px */
+    font-size: 12px; /* 12px 1.1vw */
 }
 .intro_sent p{
-    font-size: 0.7vw; /* 12px */
-    line-height: 1.2; /* *1* 0.7 */
+    font-size: 12px; /* 12px 0.7vw */
+    line-height: 1; /* *1* 1.2 0.7 */
 }
