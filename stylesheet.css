@@ -165,15 +165,19 @@ grid-gap: 0.1px;
 }
 
 .intro_box{
+  position: relative; /* 重ねるtextの位置をintro_box内基準にする */	
   margin: 120px 20px 10px auto; /* 100px 50px 10px auto; */
   width: 30%; /* ? */
   display: block; /* flexではダメだった */
 }
 
-.intro_box h3{
-    font-size: 14px; /* 12px */
+.intro_title{
+    font-size: 14px; /* 12px <h3>の文字サイズ */
 }
-.intro_box p{
-    font-size: 14px; /* 12px */
+.intro_sent{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    font-size: 14px; /* 12px <p>の文字サイズ */
     line-height: 1; /* *1* 1.2 0.7 */
 }
