@@ -48,7 +48,7 @@ body{
 main{
   display: grid; /* main領域をgridレイアウトにする */
   grid-template-rows: 25vw 6.25vw 6.25vw; /* 3行 */
-	grid-template-columns: 62.5vw 35.5vw; /* 2列 36.5vw */
+  grid-template-columns: 62.5vw 35.5vw; /* 2列 36.5vw */
 /*　width: 100%;　*/ 
 /*　box-sizing: border-box;  */ 
 
@@ -80,7 +80,8 @@ margin-right: 5px; /* 10px 30pxだと右の余白が空きすぎる */
 background-color: #eee;	
 margin-right: 5px;
 display: grid;
-grid-template-rows: repeat(3, 1fr); /* 3行 */
+grid-template-rows: repeat(3, 2.08vw); /* 3行 */
+grid-template-columns: 35.5vw; /* 1列 */
 grid-gap: 0.1px;
 /* ----- */
 white-space: nowrap;
