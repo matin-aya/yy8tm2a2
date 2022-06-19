@@ -106,6 +106,7 @@ grid-gap: 0.1px;
 }
 .itemC a{
   color: black;
+  text-decoration: underline; /* リンクの下線を表示 */
 }
 
 /* #################### */
