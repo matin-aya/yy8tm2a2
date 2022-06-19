@@ -81,16 +81,22 @@ background-color: #eee;
 margin-right: 5px;
 display: grid;
 grid-template-rows: repeat(3, 1fr); /* 3行 */
-grid-gap: 0;
+grid-gap: 1px;
 }
 .itemC h1 {
- font-size: 5px;
+ font-size: 10px;
+  margin-right: auto;
+  margin-left: 10px;
 }
 .itemC h2 {
- font-size: 8px;
+ font-size: 10px;
+  margin-right: auto;
+  margin-left: 10px;
 }
 .itemC h3 {
- font-size: 4px;
+ font-size: 8px;
+  margin-right: 10px;
+  margin-left: auto;
 }
 .itemC a{
   color: black;
