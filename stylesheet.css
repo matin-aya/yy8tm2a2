@@ -96,6 +96,7 @@ grid-gap: 0.1px;
   margin-right: auto;
   margin-left: 10px;
   white-space: nowrap; /* 折り返さない */
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 .itemC h3 {
