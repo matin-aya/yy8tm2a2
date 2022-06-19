@@ -164,15 +164,10 @@ grid-gap: 0.1px;
     margin-bottom: 0; /* なぜかこれがないとmainの右余白がなくなる??, header,footerの右端も空きができる */
 }
 
-.intro_pic{
-  margin: 0 0 0 auto;
-  width: 150px; /* 20,40px->小さすぎ, 100px->大きすぎ */
-  }
-
 .intro_box{
- margin: 120px 20px 10px auto; /* 100px 50px 10px auto; */
- width: 30%; /* ? */
- display: block; /* flexではダメだった */
+  margin: 120px 20px 10px auto; /* 100px 50px 10px auto; */
+  width: 30%; /* ? */
+  display: block; /* flexではダメだった */
 }
 
 .intro_box h3{
