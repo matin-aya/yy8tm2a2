@@ -79,30 +79,18 @@ margin-right: 5px; /* 10px 30pxだと右の余白が空きすぎる */
 .itemC{
 background-color: #eee;	
 margin-right: 5px;
-
 display: grid;
 grid-template-rows: repeat(3, 1fr); /* 3行 */
 grid-gap: 10px;
-/* overflow: visible; hidden; */
-/* overflow-wrap: break-all;  文字列を折り返す */
 }
 .itemC h1 {
-  /* margin: 0; */
-  padding-top: 5px; /* 40px 20px 20px; */
   font-size: 15px;
-  margin-right: auto;
-  margin-left: 10px;
 }
 .itemC h2 {
   font-size: 12px; 
-  margin-right: auto;
-  margin-left: 10px;
-  white-space: nowrap; /* 文字列を折り返さない */
 }
 .itemC h3 {
   font-size: 10px; 
-  margin-right: 10px;
-  margin-left: auto;
 }
 .itemC a{
   color: black;
