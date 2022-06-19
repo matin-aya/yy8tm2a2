@@ -165,7 +165,7 @@ grid-gap: 0.1px;
 }
 
 .intro_box{
- margin: 100px 50px 10px auto;
+ margin: 70px 50px 10px auto; /* 100px 50px 10px auto; */
  width: 30%; /* ? */
  display: block; /* flexではダメだった */
 }
