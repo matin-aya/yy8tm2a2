@@ -170,10 +170,10 @@ grid-gap: 0.1px;
  display: block; /* flexではダメだった */
 }
 
-.intro_box intro_pic{
+.intro_pic{
   margin-right: 0;	
   margin-left: auto;
-  width: 25px; /* 20px->小さすぎ, 100px->大きすぎ */
+  width: 40px; /* 20px->小さすぎ, 100px->大きすぎ */
   }
 
 .intro_box h3{
