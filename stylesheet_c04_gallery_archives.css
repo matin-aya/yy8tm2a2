@@ -50,6 +50,10 @@ main{
 display: flex;
 }
 
+.gallery-item{
+
+}
+
 .footer{
     height: 300px; /* 220px 200px 165px (70px) 140px */
     /*　width: 100%;　*/ 
