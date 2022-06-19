@@ -83,11 +83,6 @@ display: grid;
 grid-template-rows: repeat(3, 2.08vw); /* 3行 */
 grid-template-columns: 35.5vw; /* 1列 */
 grid-gap: 0.1px;
-/* ----- */
-white-space: nowrap;
-overflow: hidden;
-text-overflow: ellipsis;
-/* ----- */
 }
 .itemC h1 {
  font-size: 14px; /* h1のdefault文字サイズは48px 12px 14px */
@@ -100,14 +95,19 @@ text-overflow: ellipsis;
  line-height: 0.2;  /* h2のdefault行間は1.333 */
   margin-right: auto;
   margin-left: 10px;
-  overflow-wrap: break-all; /* 折り返し */
+ /* overflow-wrap: break-all; */ /* 折り返し */
+/* ----- */
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+/* ----- */
 }
 .itemC h3 {
  font-size: 12px; /* h3のdefault文字サイズは24px 10px 12px */
  line-height: 0.2;  /* h3のdefault行間は1 */
   margin-right: 10px;
   margin-left: auto;
-  padding-bottom: 2px;
+  padding-bottom: 5px;
 }
 .itemC a{
   color: black;
