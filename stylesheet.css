@@ -170,9 +170,9 @@ grid-gap: 0.1px;
  display: block; /* flexではダメだった */
 }
 
-.intro_pic {
-    width: 20px;
-}
+.intro_box intro_pic{
+  width: 20px;
+  }
 
 .intro_box h3{
     font-size: 14px; /* 12px */
