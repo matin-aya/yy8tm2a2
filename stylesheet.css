@@ -81,16 +81,16 @@ background-color: #eee;
 margin-right: 5px;
 display: grid;
 grid-template-rows: repeat(3, 1fr); /* 3行 */
-grid-gap: 10px;
+grid-gap: 0;
 }
 .itemC h1 {
- font-size: 15px;
+ font-size: 5px;
 }
 .itemC h2 {
- font-size: 12px;
+ font-size: 8px;
 }
 .itemC h3 {
- font-size: 8px;
+ font-size: 4px;
 }
 .itemC a{
   color: black;
