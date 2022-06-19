@@ -171,7 +171,9 @@ grid-gap: 0.1px;
 }
 
 .intro_box intro_pic{
-  width: 20px;
+  margin-right: 0;	
+  margin-left: auto;
+  width: 100px;
   }
 
 .intro_box h3{
