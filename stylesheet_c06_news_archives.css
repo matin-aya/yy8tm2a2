@@ -57,14 +57,14 @@ margin-left: 10px;
 /* font-size: 18px; */
 line-height: 1.5; /* 1 2  */
 }
-.diary-item{
+.news-item{
 
 }
-.diary-list li {
+.news-list li {
 	list-style-type: none;
 	font-size: 18px;
 }
-.diary-list li a {	 
+.news-list li a {	 
  color: black;
  text-decoration: underline; /* リンクの下線を表示 */
 }
