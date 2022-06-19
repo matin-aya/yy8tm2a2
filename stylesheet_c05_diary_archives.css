@@ -54,9 +54,10 @@ margin-left: 10px;
 line-height: 1.5; /* 1 2  */
 }
 .diary-item{
-list-style-type: none;
+
 }
 .diary-list li {
+	list-style-type: none;
 	font-size: 18px;
 }
 .diary-list li a {	 
