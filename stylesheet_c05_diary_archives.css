@@ -61,7 +61,8 @@ line-height: 1.5; /* 1 2  */
 list-style-type: none;
 }
 .diary_link a {	 
- color: black; 	 
+ color: black;
+ text-decoration: underline; /* リンクの下線を表示 */
 }
 
 .footer{
