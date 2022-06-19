@@ -173,7 +173,7 @@ grid-gap: 0.1px;
 .intro_box h3{
     font-size: 1.1vw; /* 12px */
 }
-.intro_box p{
+.intro_sent p{
     font-size: 1.1vw; /* 12px */
     line-height: 0.8; /* *1* 0.7 */
 }
