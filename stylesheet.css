@@ -95,14 +95,15 @@ grid-gap: 0.1px;
  line-height: 0.2;  /* h2のdefault行間は1.333 */
   margin-right: auto;
   margin-left: 10px;
- overflow-wrap: break-all; /* 折り返し */
+  overflow: hidden;
+  /* overflow-wrap: break-all;折り返し */
 }
 .itemC h3 {
  font-size: 12px; /* h3のdefault文字サイズは24px 10px 12px */
  line-height: 0.2;  /* h3のdefault行間は1 */
   margin-right: 10px;
   margin-left: auto;
-  padding-bottom: 3px;
+  padding-bottom: 3px; /* 5pxだとh2が隠れるのでダメ */
 }
 .itemC a{
   color: black;
