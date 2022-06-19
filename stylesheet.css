@@ -171,9 +171,10 @@ grid-gap: 0.1px;
 }
 
 .intro_pic{
-  margin-right: 0;	
+  /* .intro_box intro_pic{ は効かなくなるのでダメ */
+  margin-right: 0;
   margin-left: auto;
-  width: 40px; /* 20px->小さすぎ, 100px->大きすぎ */
+  width: 80px; /* 20,40px->小さすぎ, 100px->大きすぎ */
   }
 
 .intro_box h3{
