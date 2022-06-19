@@ -24,7 +24,11 @@ body{
 p a {	 
  color: black;
  text-decoration: none; 	 
-} 
+}
+li a {	 
+ color: black;
+ text-decoration: none; 	 
+}
 
 .nav{
    height: 70px;
