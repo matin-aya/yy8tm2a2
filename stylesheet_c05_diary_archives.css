@@ -21,6 +21,11 @@ body{
     margin: 10px 0 5px 0;
 }
 
+p a {	 
+ color: black;
+ text-decoration: none; 	 
+} 
+
 .nav{
    height: 70px;
     background-color: #888;
@@ -42,7 +47,15 @@ body{
 }
 
 main{
+ display: flex;
+ flex-direction: column; /* 要素(文)を縦に配置 */
+ justify-content: flex-start; /* 要素(文)を左寄せで配置 */
+ margin-left: 10px;
+}
 
+.h1 {
+/* font-size: 18px; */
+line-height: 1.5; /* 1 2  */
 }
 
 .diary-list li{
@@ -51,7 +64,6 @@ main{
 .diary-list li a{	 
  color: black;
  text-decoration: none;
- margin-left: 10px;
 }  
 
 .footer{
