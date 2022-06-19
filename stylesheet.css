@@ -171,9 +171,9 @@ grid-gap: 0.1px;
 }
 
 .intro_box h3{
-    font-size: 12px;
+    font-size: 1.1vw; /* 12px */
 }
 .intro_box p{
-    font-size: 12px;
-    line-height: 1; /* 0.7 */
+    font-size: 1.1vw; /* 12px */
+    line-height: 0.2; /* *1* 0.7 */
 }
