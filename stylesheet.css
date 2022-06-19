@@ -91,7 +91,7 @@ grid-gap: 0.1px;
   margin-left: 10px;
 }
 .itemC h2 {
- font-size: 3vw; /* h2のdefault文字サイズは36px 12px *14px* */
+ font-size: 0.6vw; /* h2のdefault文字サイズは36px 12px *14px* */
  line-height: 0.2;  /* h2のdefault行間は1.333 */
   margin-right: auto;
   margin-left: 10px;
