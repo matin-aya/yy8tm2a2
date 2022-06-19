@@ -64,7 +64,7 @@ line-height: 1.5; /* 1 2  */
 	list-style-type: none;
 	font-size: 18px;
 }
-.news-list li a {	 
+.news-list li a {
  color: black;
  text-decoration: underline; /* リンクの下線を表示 */
 }
