@@ -62,7 +62,9 @@ margin-left: 10px;
 /* font-size: 18px; */
 line-height: 1.5; /* 1 2  */
 }
-
+.diary-item{
+list-style-type: none;
+}
 
 .footer{
     height: 300px; /* 220px 200px 165px (70px) 140px */
