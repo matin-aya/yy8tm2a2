@@ -175,5 +175,5 @@ grid-gap: 0.1px;
 }
 .intro_sent p{
     font-size: 0.7vw; /* 12px */
-    line-height: 0.8; /* *1* 0.7 */
+    line-height: 1.2; /* *1* 0.7 */
 }
