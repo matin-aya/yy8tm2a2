@@ -60,7 +60,7 @@ line-height: 1.5; /* 1 2  */
 .diary-item{
 list-style-type: none;
 }
-.diary_link a {	 
+.diary-list li a {	 
  color: black;
  text-decoration: underline; /* リンクの下線を表示 */
 }
