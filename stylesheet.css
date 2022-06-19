@@ -85,20 +85,20 @@ grid-template-columns: 35.5vw; /* 1列 */
 grid-gap: 0.1px;
 }
 .itemC h1 {
- font-size: 14px; /* h1のdefault文字サイズは48px 12px *14px* */
+ font-size: 1vw; /* h1のdefault文字サイズは48px 12px *14px* */
  line-height: 0.5;  /* h1のdefault行間は1 */
   margin-right: auto;
   margin-left: 10px;
 }
 .itemC h2 {
- font-size: 0.6vw; /* h2のdefault文字サイズは36px 12px *14px* */
+ font-size: 1vw; /* h2のdefault文字サイズは36px 12px *14px* */
  line-height: 0.2;  /* h2のdefault行間は1.333 */
   margin-right: auto;
   margin-left: 10px;
   overflow-wrap: break-all; /* 折り返し */
 }
 .itemC h3 {
- font-size: 12px; /* h3のdefault文字サイズは24px 10px 12px */
+ font-size: 12px; /* h3のdefault文字サイズは24px 10px *12px* */
  line-height: 0.2;  /* h3のdefault行間は1 */
   margin-right: 10px;
   margin-left: auto;
