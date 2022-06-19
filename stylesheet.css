@@ -178,7 +178,7 @@ grid-gap: 0.1px;
     line-height: 1; /* *1* 1.2 0.7 */
 }
 
-div intro_box.intro_pic{
+intro_box .intro_pic{
   margin: 0 0 0 auto;
   width: 15px;
 }
