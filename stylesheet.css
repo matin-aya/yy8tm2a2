@@ -165,7 +165,7 @@ grid-gap: 0.1px;
 }
 
 .intro_box{
-  /* width: 40px; */ /* iconサイズ? */	
+   width: 10px; /* iconサイズ? width: 40px -> 消すと位置関係はまずまずでiconがすごくデカい分footer下に作者紹介文が突き抜ける */	
   /* position: relative; */ /* 重ねるtextの位置をintro_box内基準にする */
   margin: 120px 20px 10px auto; /* 100px 50px 10px auto; */
   width: 30%; /*  ? */
