@@ -166,9 +166,9 @@ grid-gap: 0.1px;
 
 .intro_box{
   /* width: 40px; */ /* iconサイズ? */	
-  position: relative; /* 重ねるtextの位置をintro_box内基準にする */
+  /* position: relative; */ /* 重ねるtextの位置をintro_box内基準にする */
   margin: 120px 20px 10px auto; /* 100px 50px 10px auto; */
-  /* width: 30%;  ? */
+  width: 30%; /*  ? */
   display: block; /* flexではダメだった */
 }
 
