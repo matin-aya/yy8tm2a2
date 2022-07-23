@@ -165,13 +165,18 @@ grid-gap: 0.1px;
 }
 
 .intro_box{
-   width: 5px; /* 10px;(7/23) iconサイズ? width: 40px -> 消すと位置関係はまずまずでiconがすごくデカい分footer下に作者紹介文が突き抜ける */	
+   width: 10px; /* iconサイズ? width: 40px -> 消すと位置関係はまずまずでiconがすごくデカい分footer下に作者紹介文が突き抜ける */	
   /* position: relative; */ /* 重ねるtextの位置をintro_box内基準にする */
   margin: 120px 20px 10px auto; /* 100px 50px 10px auto; */
   width: 30%; /*  ? */
   display: block; /* flexではダメだった */
 }
 
+.intro_pic{
+  margin: 0 0 0 auto;
+  width: 70px; /* 20,40px->小さすぎ, 100px->大きすぎ */
+  }
+	
 
 .intro_title{
     font-size: 14px; /* 12px <h3>の文字サイズ */
