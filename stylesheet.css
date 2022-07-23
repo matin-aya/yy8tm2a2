@@ -173,8 +173,8 @@ grid-gap: 0.1px;
 }
 
 .intro_pic{
-  margin: 0 0 0 auto;
-  width: 70px; /* 20,40px->小さすぎ, 100px->大きすぎ */
+  /* margin: 0 0 0 auto; */
+  width: 20%; /* 20,40px->小さすぎ, 100px->大きすぎ */
   }
 	
 
